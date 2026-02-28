@@ -58,3 +58,18 @@
   font-weight:700;
   border-radius:10px;
 }
+
+.hero-highlight{
+  font-size:1.25rem;
+  font-weight:600;
+  margin: 10px 0 18px 0;
+  color:#ffffff;
+}
+
+.hero-profile{
+  font-size:1.05rem;
+  line-height:1.7;
+  max-width:650px;
+  margin:0 auto;
+  color:rgba(255,255,255,0.9);
+}
