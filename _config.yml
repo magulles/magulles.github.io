@@ -3,3 +3,4 @@ description: Coastal hazards • Extreme sea levels • Consulting
 theme: minima
 sass:
   style: compressed
+rebuild: 1
