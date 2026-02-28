@@ -1,6 +1,10 @@
 title: Miguel Agulles 
 description: Coastal hazards • Extreme sea levels • Consulting
 theme: minima
-sass:
-  style: compressed
-rebuild: 1
+header_pages:
+  - index.md
+  - projects.md
+  - publications.md
+  - research.md
+  - consulting.md
+  - contact.md
