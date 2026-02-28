@@ -3,8 +3,7 @@ description: Coastal hazards • Extreme sea levels • Consulting
 theme: minima
 header_pages:
   - index.md
-  - projects.md
-  - publications.md
   - research.md
+  - publications.md
   - consulting.md
   - contact.md
