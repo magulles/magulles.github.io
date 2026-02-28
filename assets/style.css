@@ -53,3 +53,12 @@
   margin:0 auto;
   color:rgba(255,255,255,0.9);
 }
+
+/* Oculta los encabezados automáticos típicos de themes Jekyll */
+.page-heading,
+.post-title,
+.post-header,
+.page-header {
+  display: none !important;
+}
+
