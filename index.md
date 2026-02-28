@@ -5,7 +5,7 @@ title: About me
 <div class="hero">
   <div class="hero-overlay">
 
-    <img src="/assets/profile.jpg" alt="Miguel Agulles" class="hero-avatar">
+    <img src="/assets/profile.png" alt="Miguel Agulles" class="hero-avatar">
 
     <h1 class="hero-name">Dr. Miguel Agulles</h1>
 
