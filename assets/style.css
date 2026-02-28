@@ -31,9 +31,13 @@
   width:150px;
   height:150px;
   object-fit:cover;
-  border-radius:50%;
+  border-radius:16px;
   border:4px solid #fff;
   margin-bottom:14px;
+  overflow:hidden;      
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .hero h1{
