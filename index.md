@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Professional Profile
 ---
-
+### Professional Profile
 Coastal risk assessment specialist bridging science and engineering.
 
 My career integrates civil engineering, physical oceanography and applied coastal modelling. 
