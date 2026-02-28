@@ -5,10 +5,10 @@ title: About
 
 <div class="hero">
   <div class="hero-overlay">
-    <img src="/assets/profile.png" class="profile-pic">
+    <img src="/assets/profile.png" class="profile-pic" alt="Miguel Agulles">
     <h1>Miguel Agulles</h1>
     <p class="subtitle">Coastal Risk &amp; Extreme Sea Level Specialist</p>
-    <a href="/consulting/" class="cta-button">Work with me</a>
+    <a class="cta-button" href="/consulting/">Work with me</a>
   </div>
 </div>
 
