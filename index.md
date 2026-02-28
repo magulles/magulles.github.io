@@ -7,14 +7,10 @@ title: About
   <div class="hero-overlay">
     <img src="/assets/profile.png" class="profile-pic">
     <h1>Miguel Agulles</h1>
-    <p class="subtitle">
-      Coastal Risk & Extreme Sea Level Specialist
-    </p>
+    <p class="subtitle">Coastal Risk &amp; Extreme Sea Level Specialist</p>
     <a href="/consulting/" class="cta-button">Work with me</a>
   </div>
 </div>
-
-<br>
 
 ## What I do
 
