@@ -9,15 +9,28 @@ title: Home
 
     <h1 class="hero-name">Dr. Miguel Agulles</h1>
 
-    <p class="hero-profile">
-      Coastal risk assessment specialist bridging science and engineering.<br><br>
+   <p class="hero-highlight">
+  Coastal risk assessment specialist bridging science and engineering.
+</p>
 
-      I integrate civil engineering, physical oceanography and applied coastal modelling,
-  focusing on extreme sea level events, coastal flooding and shoreline dynamics using
-  numerical models, satellite remote sensing and statistical analysis.
-  Over ten years in coastal consultancy: beach regeneration, breakwater design,
-  port agitation studies and operational wave warning systems.
-    </p>
+<div class="hero-profile">
+  <p class="integration-title">⟲ Integrated coastal risk approach</p>
+
+  <ul class="expertise-list">
+    <li>Civil engineering</li>
+    <li>Physical oceanography</li>
+    <li>Applied coastal modelling</li>
+    <li>Extreme sea level events & coastal flooding</li>
+    <li>Shoreline dynamics</li>
+    <li>Numerical models & satellite remote sensing</li>
+    <li>Statistical analysis</li>
+  </ul>
+
+  <p class="experience-line">
+    Over ten years in coastal consultancy: beach regeneration, breakwater design,
+    port agitation studies and operational wave warning systems.
+  </p>
+</div>
 
     <a href="/contact/" class="hero-button">Work with me</a>
 
