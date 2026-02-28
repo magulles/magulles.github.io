@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About
+nav: true
+order: 1
 ---
 
 # Miguel Agulles
