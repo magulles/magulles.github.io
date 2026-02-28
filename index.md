@@ -2,7 +2,6 @@
 layout: page
 title: Professional Profile
 ---
-### Professional Profile
 
 Coastal risk assessment specialist bridging science and engineering.
 
