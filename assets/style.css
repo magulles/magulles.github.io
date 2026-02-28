@@ -2,6 +2,12 @@
   background-image:url('/assets/hero.jpg');
   background-size:cover;
   background-position:center;
+
+  min-height: 75vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
   padding:100px 20px;
   text-align:center;
   color:white;
