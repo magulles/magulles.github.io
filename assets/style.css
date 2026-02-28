@@ -62,3 +62,50 @@
   display: none !important;
 }
 
+.hero-highlight{
+  margin: 6px 0 18px 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.95);
+}
+
+.hero-profile{
+  max-width: 620px;
+  margin: 0 auto 10px auto;
+  text-align: left;           /* <-- clave para que quede alineado */
+  line-height: 1.7;
+  color: rgba(255,255,255,0.9);
+}
+
+.integration-title{
+  margin: 0 0 10px 0;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-align: center;         /* título centrado, contenido alineado */
+}
+
+.expertise-list{
+  list-style: none;
+  padding: 0;
+  margin: 0 0 14px 0;
+}
+
+.expertise-list li{
+  margin: 6px 0;
+  padding-left: 18px;
+  position: relative;
+}
+
+.expertise-list li::before{
+  content: "–";
+  position: absolute;
+  left: 0;
+  opacity: 0.8;
+}
+
+.experience-line{
+  margin: 10px 0 0 0;
+  opacity: 0.9;
+  text-align: center;         /* mantiene el cierre centrado */
+}
+
