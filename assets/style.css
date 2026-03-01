@@ -38,11 +38,8 @@
 }
 
 /* ABOUT LAYOUT (foto izquierda, texto derecha) */
-.about-grid{
-  display:grid;
-  grid-template-columns: 320px 1fr;
-  gap:60px;
-  align-items:center;
+.about-right{
+  max-width: 700px;   /* controla ancho total de la columna */
 }
 
 .about-left{
@@ -71,12 +68,8 @@
 }
 
 .hero-highlight{
-  font-size:1.05rem;
-  font-weight:500;
   line-height:1.65;
-  margin:0 0 18px 0;
-  color:rgba(255,255,255,0.92);
-  max-width: 650px;   /* ancho controlado */
+  margin-bottom:18px;
 }
 
 /* BUTTON (si ya tienes estilos para .hero-button, puedes mantenerlos) */
@@ -142,4 +135,27 @@
     margin-left:auto;
     margin-right:auto;
   }
+}
+
+/* HEADER TRANSPARENTE SOBRE HERO */
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  z-index: 1000;
+}
+
+/* Links en blanco */
+.site-header a {
+  color: white !important;
+}
+
+/* Ajuste para que el hero no quede debajo del menú */
+.hero {
+  margin-top: -80px;        /* ajusta si el header es más alto */
+  padding-top: 180px;       /* compensa el espacio */
 }
