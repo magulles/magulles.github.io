@@ -340,3 +340,7 @@
   }
 }
 
+.research-grid{
+  max-width: 1200px;
+  margin: 80px auto 0 auto;
+}
