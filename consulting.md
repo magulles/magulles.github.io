@@ -4,6 +4,10 @@ title: Consulting
 permalink: /consulting/
 ---
 
+<p style="text-align: center;">
+  <img src="/assets/logo.png" alt="Corporate logo" width="250">
+</p>
+
 ## Services
 - Coastal protection and nourishment support
 - Coastal flood / overtopping risk assessments
