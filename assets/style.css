@@ -136,36 +136,21 @@
   font-size:0.98rem;
 }
 
-.bridge-grid{
-  display:grid;
-  grid-template-columns: 1fr 120px 1fr;  /* columnas + espacio central */
-  align-items:center;
-  gap:30px;
-  margin:30px 0;
-}
-
 .bridge-center{
-  text-align:center;
-  font-size:60px;        /* flecha grande */
-  font-weight:300;
-  opacity:0.8;
+  width:2px;
+  background:rgba(255,255,255,0.25);
+  height:160px;
+  position:relative;
 }
 
-/* Columnas */
-.bridge-column{
-  text-align:left;
+.bridge-center::after{
+  content:"";
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:14px;
+  height:14px;
+  border-radius:50%;
+  background:white;
 }
-
-/* Responsive: en móvil se apilan */
-@media (max-width: 900px){
-  .bridge-grid{
-    grid-template-columns:1fr;
-    text-align:center;
-  }
-  .bridge-center{
-    display:none;
-  }
-}
-
-
-
