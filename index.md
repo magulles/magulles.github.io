@@ -37,7 +37,7 @@ title: Home
         <div class="icon-card"><span class="icon">🛰️</span><span>Satellite remote sensing</span></div>
         <div class="icon-card"><span class="icon">🏖️</span><span>Shoreline dynamics</span></div>
         <div class="icon-card"><span class="icon">🧮</span><span>Applied coastal modelling</span></div>
-        <div class="icon-card"><span class="icon">🛡️</span><span>Coastal protection</span></div>
+        <div class="icon-card"><span class="icon">🌊🛡️</span><span>Coastal protection</span></div>
         <div class="icon-card"><span class="icon">⚓</span><span>Port operability & wave agitation</span></div>
       </div>
     </div>
