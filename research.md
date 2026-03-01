@@ -16,12 +16,6 @@ permalink: /research/
         decision-making and adaptation.
       </p>
 
-      <ul class="research-tags">
-        <li>Sea level</li>
-        <li>Extremes</li>
-        <li>Coastal flooding</li>
-        <li>Mediterranean & North Atlantic</li>
-      </ul>
     </div>
 
     <div class="research-figure">
