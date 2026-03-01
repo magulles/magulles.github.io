@@ -7,12 +7,11 @@ title: Home
 
     <img src="/assets/profile.png" alt="Miguel Agulles" class="hero-avatar">
 
-    <h1 class="hero-name">Dr. Miguel Agulles</h1>
+    <h1 class="hero-name">About me</h1>
 
    <p class="hero-highlight">
-  Coastal risk assessment specialist bridging science and engineering.
-PhD in Physical Oceanography with over ten years of experience integrating observational data (waves, wind, sea level, temperature), numerical modelling, remote sensing and statistical analysis for coastal risk assessment. Currently, my research focuses on extreme sea-level events, coastal impacts and remote sensing applications for coastal management.
-In parallel, I actively contribute to coastal and harbour engineering projects, including beach regeneration studies, port operability and wave agitation assessments, and the development of operational early warning systems for waves, wind and sea level in ports. Author of 17 peer-reviewed publications and contributor to more than 10 applied coastal engineering studies.
+Coastal Oceanographer
+     PhD in Physical Oceanography with over ten years of experience integrating observational data (waves, wind, sea level, temperature), numerical modelling, remote sensing and statistical analysis for coastal risk assessment. Currently, my research focuses on the study of sea level variability and their coastal impacts. In parallel, I have participated in more than 10 applied coastal engineering studies.
      
 <div class="hero-profile">
 
