@@ -28,7 +28,7 @@ title: Home
 
   <!-- CENTER SYMBOL -->
   <div class="bridge-center">
-    ⇄
+    ∞
   </div>
 
   <div class="bridge-column">
