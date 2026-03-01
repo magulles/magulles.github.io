@@ -26,17 +26,17 @@ title: Home
     </ul>
   </div>
 
-  <!-- SYMBOL -->
+  <!-- CENTER SYMBOL -->
   <div class="bridge-center">
-    ∞
+    ⇄
   </div>
 
   <div class="bridge-column">
     <h3 class="bridge-heading">Engineering</h3>
     <ul class="bridge-list">
       <li><span class="icon">🧮</span> Applied coastal modelling</li>
-      <li><span class="icon">🏖️</span> Beach regeneration</li>
-      <li><span class="icon">🌊🧱</span> Breakwater design</li>
+      <li><span class="icon">🚜</span> Beach regeneration</li>
+      <li><span class="icon">🏗️</span> Breakwater design</li>
       <li><span class="icon">⚓</span> Port agitation studies</li>
     </ul>
   </div>
