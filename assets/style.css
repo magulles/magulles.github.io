@@ -284,6 +284,10 @@
   border: 1px solid rgba(0,0,0,0.08);
 }
 
+.research-grid{
+  margin-top: 60px;
+}
+
 /* Tipografía */
 .research-title{
   margin: 0 0 10px 0;
