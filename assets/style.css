@@ -220,7 +220,30 @@
   }
 }
 
+.education-block{
+  margin-top:45px;
+}
 
+.education-list{
+  list-style:none;
+  padding:0;
+  margin:15px 0 0 0;
+}
+
+.education-list li{
+  display:flex;
+  align-items:flex-start;
+  gap:12px;
+  margin-bottom:14px;
+  font-size:1rem;
+}
+
+.edu-icon{
+  font-size:18px;
+  opacity:0.8;
+  width:22px;
+  text-align:center;
+}
 
 
 
