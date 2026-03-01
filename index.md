@@ -23,11 +23,9 @@ In parallel, I actively contribute to coastal and harbour engineering projects, 
     <ul class="bridge-list">
       <li><span class="icon">🌊</span> Coastal oceanography</li>
       <li><span class="icon">🛰️</span> Satellite remote sensing</li>
-      <li><span class="icon">📈</span> Sea level variablitiy</li>
       <li><span class="icon">🏖️</span> Shoreline dynamics</li>
       <li><span class="icon">🧮</span> Applied coastal modelling</li>
-      <li><span class="icon">🏖️</span> Nature Based Solutions</li>
-      <li><span class="icon">🌊🧱</span> Breakwater design</li>
+      <li><span class="icon">🏖️</span> Coastal protection</li>
       <li><span class="icon">⚓</span> Port operability and agitation studies</li>
     </ul>
   </div>
