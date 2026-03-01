@@ -1,3 +1,4 @@
+/* HERO */
 .hero{
   background-image:url('/assets/hero.jpg');
   background-size:cover;
@@ -9,9 +10,7 @@
   justify-content:center;
 
   padding:100px 20px;
-  text-align:center;
   color:white;
-  border-radius:0;
 
   width:100vw;
   margin-left:calc(50% - 50vw);
@@ -21,40 +20,16 @@
   background: rgba(0,0,0,.55);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  display:inline-block;
+
+  display:block;
   padding:32px 40px;
   border-radius:16px;
-  max-width: 760px;
+
+  max-width: 980px; /* más ancho para 2 columnas */
+  width: 100%;
 }
 
-.hero-avatar{
-  width:250px;
-  height:250px;
-  object-fit:cover;
-  border-radius:20%;
-  border:4px solid #fff;
-  margin-bottom:22px;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-}
-
-.hero-highlight{
-  font-size:1.25rem;
-  font-weight:600;
-  margin: 10px 0 18px 0;
-  color:#ffffff;
-}
-
-.hero-profile{
-  font-size:1.05rem;
-  line-height:1.7;
-  max-width:650px;
-  margin:0 auto;
-  color:rgba(255,255,255,0.9);
-}
-
-/* Oculta los encabezados automáticos típicos de themes Jekyll */
+/* Oculta encabezados automáticos de algunos themes Jekyll */
 .page-heading,
 .post-title,
 .post-header,
@@ -62,58 +37,71 @@
   display: none !important;
 }
 
+/* ABOUT LAYOUT (foto izquierda, texto derecha) */
+.about-grid{
+  display:grid;
+  grid-template-columns: 320px 1fr;
+  gap:60px;
+  align-items:center;
+}
+
+.about-left{
+  text-align:center;
+}
+
+.about-avatar{
+  width:220px;
+  height:220px;
+  object-fit:cover;
+  border-radius:24px;
+  border:4px solid rgba(255,255,255,0.9);
+  box-shadow:0 10px 30px rgba(0,0,0,0.35);
+}
+
+.about-role{
+  margin-top:14px;
+  font-size:0.95rem;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  opacity:0.85;
+}
+
+.hero-name{
+  margin:0 0 12px 0;
+}
+
 .hero-highlight{
-  margin: 6px 0 18px 0;
-  font-size: 1.15rem;
-  font-weight: 600;
-  color: rgba(255,255,255,0.95);
+  font-size:1.05rem;
+  font-weight:500;
+  line-height:1.65;
+  margin:0 0 18px 0;
+  color:rgba(255,255,255,0.92);
+  max-width: 720px;
 }
 
-.hero-profile{
-  max-width: 620px;
-  margin: 0 auto 10px auto;
-  text-align: left;           /* <-- clave para que quede alineado */
-  line-height: 1.7;
-  color: rgba(255,255,255,0.9);
+/* BUTTON (si ya tienes estilos para .hero-button, puedes mantenerlos) */
+/* Si no, añade algo así:
+.hero-button{ ... }
+*/
+
+/* INTERESTS */
+.interests-block{
+  margin-top:28px;
 }
 
-.integration-title{
-  margin: 0 0 10px 0;
-  font-weight: 600;
-  letter-spacing: 0.2px;
-  text-align: center;         /* título centrado, contenido alineado */
-}
-
-.expertise-list{
-  list-style: none;
-  padding: 0;
-  margin: 0 0 14px 0;
-}
-
-.expertise-list li{
-  margin: 6px 0;
-  padding-left: 18px;
-  position: relative;
-}
-
-.expertise-list li::before{
-  content: "–";
-  position: absolute;
-  left: 0;
-  opacity: 0.8;
-}
-
-.experience-line{
-  margin: 10px 0 0 0;
-  opacity: 0.9;
-  text-align: center;         /* mantiene el cierre centrado */
+.bridge-heading{
+  font-size:1.05rem;
+  font-weight:600;
+  letter-spacing:0.6px;
+  text-transform:uppercase;
+  opacity:0.9;
+  margin:0 0 12px 0;
 }
 
 .icon-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
   gap:12px;
-  margin:14px 0 18px;
 }
 
 .icon-card{
@@ -125,32 +113,33 @@
   background:rgba(255,255,255,0.08);
   border:1px solid rgba(255,255,255,0.12);
   backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 
-.icon-card .ic{
-  font-size:20px;
-  line-height:1;
+.icon-card .icon{
+  font-size:18px;
+  width:22px;
+  text-align:center;
 }
 
-.icon-card span:last-child{
-  font-size:0.98rem;
-}
+/* RESPONSIVE */
+@media (max-width: 900px){
+  .hero{
+    padding:70px 16px;
+  }
 
-.bridge-center{
-  width:2px;
-  background:rgba(255,255,255,0.25);
-  height:160px;
-  position:relative;
-}
+  .hero-overlay{
+    padding:26px 20px;
+  }
 
-.bridge-center::after{
-  content:"";
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  width:14px;
-  height:14px;
-  border-radius:50%;
-  background:white;
+  .about-grid{
+    grid-template-columns:1fr;
+    gap:22px;
+    text-align:center;
+  }
+
+  .hero-highlight{
+    margin-left:auto;
+    margin-right:auto;
+  }
 }
