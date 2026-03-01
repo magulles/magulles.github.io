@@ -4,13 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-<div class="section-intro">
-  <h1 class="page-title">Research</h1>
-  <p class="page-subtitle">
-    I work at the interface between physical oceanography, coastal hazards and applied coastal engineering.
-  </p>
-</div>
-
 <div class="research-grid">
 
   <!-- RESEARCH CARD 1 -->
