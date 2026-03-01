@@ -7,18 +7,18 @@ title: Home
   <div class="hero-overlay">
 
     <div class="about-grid">
-      <!-- LEFT: PHOTO + ROLE -->
+      <!-- LEFT: PHOTO -->
       <div class="about-left">
         <img src="/assets/profile.png" alt="Miguel Agulles" class="about-avatar">
-        <p class="about-role">Coastal Oceanographer</p>
+        <p class="about-role">COASTAL OCEANOGRAPHER</p>
       </div>
 
-      <!-- RIGHT: ABOUT -->
+      <!-- RIGHT: TEXT -->
       <div class="about-right">
         <h1 class="hero-name">About me</h1>
 
         <p class="hero-highlight">
-          PhD in Physical Oceanography with over ten years of experience integrating observational data
+          More than ten years of experience integrating observational data
           (waves, wind, sea level, temperature), numerical modelling, remote sensing and statistical analysis
           for coastal risk assessment. Currently, my research focuses on sea level variability and coastal impacts.
           In parallel, I have participated in more than 10 applied coastal engineering studies.
@@ -28,7 +28,7 @@ title: Home
       </div>
     </div>
 
-    <!-- INTERESTS -->
+    <!-- Interests -->
     <div class="interests-block">
       <h3 class="bridge-heading">Interests</h3>
 
@@ -38,9 +38,13 @@ title: Home
         <div class="icon-card"><span class="icon">🏖️</span><span>Shoreline dynamics</span></div>
         <div class="icon-card"><span class="icon">🧮</span><span>Applied coastal modelling</span></div>
         <div class="icon-card"><span class="icon">🌊🛡️</span><span>Coastal protection</span></div>
+        <div class="icon-card"><span class="icon">🌊🌱</span><span>Nature-based solutions</span></div>
+        <div class="icon-card"><span class="icon">🚜</span><span>Beach nourishment</span></div>
         <div class="icon-card"><span class="icon">⚓</span><span>Port operability & wave agitation</span></div>
       </div>
     </div>
+
+
 
   </div>
 </div>
