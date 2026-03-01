@@ -36,8 +36,8 @@ title: Home
     <h3 class="bridge-heading">Coastal Engineering</h3>
     <ul class="bridge-list">
       <li><span class="icon">🧮</span> Applied coastal modelling</li>
-      <li><span class="icon">🚜</span> Beach regeneration</li>
-      <li><span class="icon">🏗️</span> Breakwater design</li>
+      <li><span class="icon">🏖️</span> Beach regeneration</li>
+      <li><span class="icon">🌊🧱</span> Breakwater design</li>
       <li><span class="icon">⚓</span> Port operability and agitation studies</li>
     </ul>
   </div>
