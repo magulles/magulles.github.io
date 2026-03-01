@@ -44,6 +44,24 @@ title: Home
       </div>
     </div>
 
+    <div class="education-block">
+  <h3 class="bridge-heading">Education</h3>
+
+  <div class="icon-grid">
+    <div class="icon-card">
+      <span>PhD in Physical Oceanography (2023)</span>
+    </div>
+
+    <div class="icon-card">
+      <span>Master in Ports and Coastal Engineering (2015)</span>
+    </div>
+
+    <div class="icon-card">
+      <span>Bachelor in Civil Engineering (2011)</span>
+    </div>
+  </div>
+</div>
+
 
 
   </div>
