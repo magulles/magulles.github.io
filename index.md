@@ -49,19 +49,19 @@ title: Home
   <ul class="education-list">
     <li>
       <div>
-        <strong>PhD in Physical Oceanography</strong>
+        PhD in Physical Oceanography
       </div>
     </li>
 
     <li>
       <div>
-        <strong>Master in Coastal Engineering</strong>
+        Master in Coastal Engineering
       </div>
     </li>
 
     <li>
       <div>
-        <strong>Bachelor in Civil Engineering</strong>
+        Bachelor in Civil Engineering
       </div>
     </li>
   </ul>
