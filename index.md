@@ -19,10 +19,11 @@ title: Home
     <h3 class="bridge-heading">Science</h3>
     <ul class="bridge-list">
       <li><span class="icon">🌊</span> Coastal oceanography</li>
-      <li><span class="icon">🛰️</span> Numerical models & satellite remote sensing</li>
-      <li><span class="icon">📈</span> Sea level</li>
+      <li><span class="icon">🛰️</span> Satellite remote sensing</li>
+      <li><span class="icon">📈</span> Sea level variablitiy</li>
+      <li><span class="icon">🖥️</span> Numerical models</li>
       <li><span class="icon">🏖️</span> Shoreline dynamics</li>
-      <li><span class="icon">📊</span> Statistical analysis</li>
+      <li><span class="icon">📊</span> Statistical analysis and Data Science</li>
     </ul>
   </div>
 
@@ -32,12 +33,12 @@ title: Home
   </div>
 
   <div class="bridge-column">
-    <h3 class="bridge-heading">Engineering</h3>
+    <h3 class="bridge-heading">Coastal Engineering</h3>
     <ul class="bridge-list">
       <li><span class="icon">🧮</span> Applied coastal modelling</li>
       <li><span class="icon">🚜</span> Beach regeneration</li>
       <li><span class="icon">🏗️</span> Breakwater design</li>
-      <li><span class="icon">⚓</span> Port agitation studies</li>
+      <li><span class="icon">⚓</span> Port operability and agitation studies</li>
     </ul>
   </div>
 
