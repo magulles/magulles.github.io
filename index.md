@@ -16,7 +16,6 @@ title: Home
 
 <div class="bridge-grid">
 
-  <!-- SCIENCE COLUMN -->
   <div class="bridge-column">
     <h3 class="bridge-heading">Science</h3>
     <ul class="bridge-list">
@@ -28,7 +27,11 @@ title: Home
     </ul>
   </div>
 
-  <!-- ENGINEERING COLUMN -->
+  <!-- SYMBOL -->
+  <div class="bridge-center">
+    ∞
+  </div>
+
   <div class="bridge-column">
     <h3 class="bridge-heading">Engineering</h3>
     <ul class="bridge-list">
@@ -38,6 +41,8 @@ title: Home
       <li><span class="icon">⚓</span> Port agitation studies</li>
     </ul>
   </div>
+
+</div>
 
 
 
