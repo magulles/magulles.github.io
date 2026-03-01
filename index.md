@@ -12,25 +12,34 @@ title: Home
    <p class="hero-highlight">
   Coastal risk assessment specialist bridging science and engineering.
 <div class="hero-profile">
-  <p class="integration-title">⟲ Integrated coastal risk approach</p>
+ <p class="integration-title">⟲ Bridging science and engineering</p>
 
-  <div class="icon-grid">
-    <div class="icon-card"><span class="ic">🏗️</span><span>Civil engineering</span></div>
-    <div class="icon-card"><span class="ic">🌊</span><span>Physical oceanography</span></div>
-    <div class="icon-card"><span class="ic">🧮</span><span>Applied coastal modelling</span></div>
-    <div class="icon-card"><span class="ic">⚠️</span><span>Extreme sea level events & coastal flooding</span></div>
-    <div class="icon-card"><span class="ic">🏖️</span><span>Shoreline dynamics</span></div>
-    <div class="icon-card"><span class="ic">🛰️</span><span>Numerical models & satellite remote sensing</span></div>
-    <div class="icon-card"><span class="ic">📊</span><span>Statistical analysis</span></div>
+<div class="bridge-grid">
+
+  <!-- SCIENCE COLUMN -->
+  <div class="bridge-column">
+    <h3 class="bridge-heading">Science</h3>
+    <ul class="bridge-list">
+      <li><span class="icon">🌊</span> Coastal oceanography</li>
+      <li><span class="icon">🛰️</span> Numerical models & satellite remote sensing</li>
+      <li><span class="icon">📈</span> Sea level</li>
+      <li><span class="icon">🏖️</span> Shoreline dynamics</li>
+      <li><span class="icon">📊</span> Statistical analysis</li>
+    </ul>
   </div>
 
-  <p class="experience-line">
-    Over ten years in coastal consultancy: beach regeneration, breakwater design,
-    port agitation studies and operational wave warning systems.
-  </p>
-</div>
+  <!-- ENGINEERING COLUMN -->
+  <div class="bridge-column">
+    <h3 class="bridge-heading">Engineering</h3>
+    <ul class="bridge-list">
+      <li><span class="icon">🧮</span> Applied coastal modelling</li>
+      <li><span class="icon">🏝️</span> Beach regeneration</li>
+      <li><span class="icon">🧱</span> Breakwater design</li>
+      <li><span class="icon">⚓</span> Port agitation studies</li>
+    </ul>
+  </div>
+
+
 
     <a href="/contact/" class="hero-button">Work with me</a>
 
-  </div>
-</div>
