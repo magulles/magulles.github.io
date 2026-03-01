@@ -250,5 +250,89 @@
   padding-left:12px;
 }
 
+/* Research page */
+.section-intro{
+  margin: 10px 0 26px 0;
+}
 
+.page-title{
+  margin: 0 0 6px 0;
+}
+
+.page-subtitle{
+  margin: 0;
+  opacity: 0.8;
+  max-width: 780px;
+}
+
+.research-grid{
+  display: grid;
+  gap: 18px;
+}
+
+/* Card estilo “pro” */
+.research-card{
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 28px;
+  align-items: start;
+
+  padding: 22px 22px;
+  border-radius: 16px;
+
+  background: rgba(0,0,0,0.04);
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+/* Tipografía */
+.research-title{
+  margin: 0 0 10px 0;
+}
+
+.research-desc{
+  margin: 0 0 14px 0;
+  line-height: 1.65;
+  opacity: 0.9;
+}
+
+/* Tags */
+.research-tags{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.research-tags li{
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+
+  background: rgba(0,0,0,0.06);
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+/* Figure */
+.research-figure img{
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  display: block;
+}
+
+.figure-caption{
+  margin: 8px 0 0 0;
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
+/* Responsive */
+@media (max-width: 900px){
+  .research-card{
+    grid-template-columns: 1fr;
+  }
+}
 
