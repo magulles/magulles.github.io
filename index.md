@@ -37,31 +37,35 @@ title: Home
         <div class="icon-card"><span class="icon">🛰️</span><span>Satellite remote sensing</span></div>
         <div class="icon-card"><span class="icon">🏖️</span><span>Shoreline dynamics</span></div>
         <div class="icon-card"><span class="icon">🧮</span><span>Applied coastal modelling</span></div>
-        <div class="icon-card"><span class="icon">🌊🛡️</span><span>Coastal protection</span></div>
-        <div class="icon-card"><span class="icon">🌊🌱</span><span>Nature-based solutions</span></div>
-        <div class="icon-card"><span class="icon">🚜</span><span>Beach nourishment</span></div>
+        <div class="icon-card"><span class="icon">🛡️</span><span>Coastal protection</span></div>
+        <div class="icon-card"><span class="icon">🌱</span><span>Nature-based solutions</span></div>
         <div class="icon-card"><span class="icon">⚓</span><span>Port operability & wave agitation</span></div>
       </div>
     </div>
 
-    <div class="education-block">
+  <div class="education-block">
   <h3 class="bridge-heading">Education</h3>
 
-  <div class="icon-grid">
-    <div class="icon-card">
-      <span>PhD in Physical Oceanography (2023)</span>
-    </div>
+  <ul class="education-list">
+    <li>
+      <div>
+        <strong>PhD in Physical Oceanography</strong>
+      </div>
+    </li>
 
-    <div class="icon-card">
-      <span>Master in Ports and Coastal Engineering (2015)</span>
-    </div>
+    <li>
+      <div>
+        <strong>Master in Coastal Engineering</strong>
+      </div>
+    </li>
 
-    <div class="icon-card">
-      <span>Bachelor in Civil Engineering (2011)</span>
-    </div>
-  </div>
+    <li>
+      <div>
+        <strong>Bachelor in Civil Engineering</strong>
+      </div>
+    </li>
+  </ul>
 </div>
-
 
 
   </div>
