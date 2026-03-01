@@ -135,3 +135,31 @@
 .icon-card span:last-child{
   font-size:0.98rem;
 }
+
+.bridge-grid{
+  display:grid;
+  grid-template-columns:1fr auto 1fr;
+  align-items:center;
+  gap:40px;
+  margin:25px 0;
+}
+
+.bridge-center{
+  font-size:42px;
+  opacity:0.7;
+  font-weight:300;
+}
+
+/* Responsive */
+@media (max-width: 900px){
+  .bridge-grid{
+    grid-template-columns:1fr;
+  }
+  .bridge-center{
+    display:none;
+  }
+}
+
+
+
+
