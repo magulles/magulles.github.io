@@ -32,7 +32,7 @@ permalink: /research/
     </div>
 
     <div class="research-figure">
-      <img src="/assets/research/sea-level.jpg" alt="Sea level extremes figure">
+      <img src="/assets/research/fig13b_max_extremos.png" alt="Sea level extremes figure">
       <p class="figure-caption">Example figure caption (replace with your own).</p>
     </div>
   </article>
