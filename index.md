@@ -12,7 +12,6 @@ title: Home
    <p class="hero-highlight">
   Coastal risk assessment specialist bridging science and engineering.
 <div class="hero-profile">
- <p class="integration-title">⟲ Bridging science and engineering</p>
 
 <div class="bridge-grid">
 
@@ -36,8 +35,8 @@ title: Home
     <h3 class="bridge-heading">Engineering</h3>
     <ul class="bridge-list">
       <li><span class="icon">🧮</span> Applied coastal modelling</li>
-      <li><span class="icon">🏝️</span> Beach regeneration</li>
-      <li><span class="icon">🧱</span> Breakwater design</li>
+      <li><span class="icon">🏖️</span> Beach regeneration</li>
+      <li><span class="icon">🌊🧱</span> Breakwater design</li>
       <li><span class="icon">⚓</span> Port agitation studies</li>
     </ul>
   </div>
