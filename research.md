@@ -2,6 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
+body_class: research-page
 ---
 
 <div class="research-grid">
