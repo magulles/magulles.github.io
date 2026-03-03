@@ -265,3 +265,49 @@
 
   .research-card { grid-template-columns: 1fr; }
 }
+
+/* INTERESTS: punto + icono + nombre (sin barras) */
+.interests-block .icon-grid{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.interests-block .icon-card{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  /* quitar efecto barra/caja sí o sí */
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+
+  cursor: default !important;
+}
+
+/* el punto */
+.interests-block .icon-card::before{
+  content: "•";
+  display: inline-block;
+  width: 14px;          /* alineación tipo lista */
+  text-align: center;
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* icono alineado como en Education */
+.interests-block .icon-card .icon{
+  font-size: 18px;
+  width: 22px;
+  text-align: center;
+}
+
+/* sin hover raro */
+.interests-block .icon-card:hover{
+  transform: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
