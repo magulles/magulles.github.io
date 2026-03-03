@@ -18,7 +18,7 @@ permalink: /research/
 
     <div class="research-figure">
       <img src="/assets/research/detect.jpg" alt="Sea level extremes figure">
-      <p class="figure-caption">Example figure caption (replace with your own).</p>
+      <p class="figure-caption">Study site. Mesh contour of the numerical model (in black), tide gauge locations (green dots) and straits with refined grid (red squares) for The English Channel (A) and the Gibraltar Strait (B).</p>
     </div>
   </article>
 
