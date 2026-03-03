@@ -312,3 +312,41 @@
   box-shadow: none !important;
 }
 
+/* ========== RESEARCH como HOME (hero + caja gris) ========== */
+
+/* Evita que el theme meta márgenes raros alrededor del hero en páginas */
+.page-content { padding: 0 !important; }
+
+/* Hero más corto que Home (ajusta a gusto) */
+.hero--research{
+  min-height: 75vh;   /* pon 60vh si lo quieres más compacto */
+}
+
+/* Layout interno del contenido */
+.research-card--hero{
+  /* quitamos el “card pro” de research, porque ya estás dentro del overlay */
+  background: transparent;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 28px;
+  align-items: start;
+}
+
+/* Imagen dentro del overlay: que no se salga y se vea “pro” */
+.research-card--hero .research-figure img{
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 900px){
+  .research-card--hero{
+    grid-template-columns: 1fr;
+  }
+}
