@@ -340,3 +340,25 @@
   }
 }
 
+/* Quitar estilo tipo caja */
+.icon-card {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  cursor: default !important;
+}
+
+/* Quitar efecto hover si existe */
+.icon-card:hover {
+  transform: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.icon-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
