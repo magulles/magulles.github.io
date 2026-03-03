@@ -312,16 +312,3 @@
   box-shadow: none !important;
 }
 
-/* ===== RESEARCH FULL WIDTH ===== */
-
-/* Quita el límite del contenedor del theme */
-.page-content {
-  max-width: 100% !important;
-}
-
-/* Hace que el grid ocupe todo el ancho real */
-.research-grid {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  padding: 0 40px; /* margen interior elegante */
-}
