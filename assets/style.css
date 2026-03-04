@@ -479,4 +479,25 @@
   transform: translateY(1px);
 }
 
+/* Services con iconos */
+.services-list--icons{
+  list-style: none;
+  padding-left: 0;
+  margin: 12px 0 0 0;
+}
 
+.services-list--icons li{
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin: 10px 0;
+  line-height: 1.55;
+}
+
+.services-list--icons .s-ico{
+  width: 22px;
+  text-align: center;
+  flex: 0 0 22px;
+  opacity: 0.95;
+  transform: translateY(1px);
+}
