@@ -444,4 +444,19 @@
   margin-bottom: 14px;
 }
 
+/* header services con logo */
+.services-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:10px;
+}
+
+/* logo consulting */
+.services-logo{
+  height:40px;
+  width:auto;
+  opacity:0.9;
+}
+
 
