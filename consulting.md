@@ -46,7 +46,7 @@ permalink: /consulting/
         </div>
 
         <div class="research-figure">
-          <img src="/assets/consulting/Hsmap_caso_1.png" alt="Storm surge modelling figure">
+          <img src="/assets/consulting/fig_estudio_1.png" alt="Storm surge modelling figure">
 
           <p class="figure-caption">
             Oleaje. Alternativas
@@ -61,7 +61,7 @@ permalink: /consulting/
 
         <div class="research-text">
           <h2 class="research-title">
-            titulo projecto 2
+            Estudio de clima marítimo, agitación interior y rebase para el proyecto de concesión administrativa para la construcción y explotación de la zona nautico-deportiva situada al Oeste del puerto de Málaga    
           </h2>
 
           <p class="research-desc">
@@ -70,10 +70,10 @@ permalink: /consulting/
         </div>
 
         <div class="research-figure">
-          <img src="/assets/research/detect.jpg" alt="Seagrass coastal protection figure">
+          <img src="/assets/consulting/fig_estudio_2.png" alt="Seagrass coastal protection figure">
 
           <p class="figure-caption">
-            Example modelling domain used to quantify coastal protection provided by seagrass meadows.
+            Zonas interiores de estudio.
           </p>
         </div>
 
