@@ -413,3 +413,21 @@
 .research-spaced{
   margin-top:40px;
 }
+
+/* --- Fix móvil: boxes dentro del fondo del hero (Consulting) --- */
+@media (max-width: 900px){
+  .hero--consulting{
+    justify-content: flex-start;   /* en vez de centrar vertical */
+    align-items: stretch;          /* que no “encaje raro” */
+    min-height: auto;              /* deja crecer según contenido */
+    padding-bottom: 60px;          /* asegura fondo debajo del último box */
+  }
+
+  .consulting-container{
+    padding: 0 16px;               /* margen lateral en móvil */
+  }
+
+  .consulting-box{
+    max-width: 100%;               /* que no se salga */
+  }
+}
