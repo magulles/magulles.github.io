@@ -381,3 +381,7 @@
   .research-spaced{ margin-top: 26px; }
 }
 
+/* separación entre boxes de consulting */
+.consulting-box{
+  margin-bottom: 40px;
+}
