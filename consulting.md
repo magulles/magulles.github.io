@@ -37,11 +37,11 @@ permalink: /consulting/
 
         <div class="research-text">
           <h2 class="research-title">
-            Storm surge modelling along European coastlines: The effect of the spatio-temporal resolution of the atmospheric forcing
+            Estudio de alternativas para la reducción de la agitación interior del Puerto de Cala Gamba. 
           </h2>
 
           <p class="research-desc">
-            This study investigates how the spatial and temporal resolution of atmospheric forcing influences the simulation of storm surges using hydrodynamic models. Five long-term hindcasts (since 1940) were produced for the European Atlantic and Mediterranean coasts using atmospheric fields with different temporal (hourly vs. daily) and spatial (0.25º to 2º) resolutions. Validation against tide gauge observations shows that daily forcing underestimates extreme coastal sea levels by up to 50% compared to hourly simulations and observations.
+            bla bla bla
           </p>
         </div>
 
@@ -61,11 +61,11 @@ permalink: /consulting/
 
         <div class="research-text">
           <h2 class="research-title">
-            Mediterranean seagrasses provide essential coastal protection under climate change
+            titulo projecto 2
           </h2>
 
           <p class="research-desc">
-            Seagrasses provide key ecosystem services in coastal environments and play an important role in wave attenuation and coastal protection. We quantify the reduction of coastal impacts induced by seagrass meadows under present and future climate scenarios in the Balearic Islands.
+            bla bla bla
           </p>
         </div>
 
