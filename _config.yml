@@ -3,6 +3,5 @@ theme: minima
 header_pages:
   - index.md
   - research.md
-  - publications.md
   - consulting.md
-  - contact.md
+
