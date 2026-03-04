@@ -350,3 +350,35 @@
     grid-template-columns: 1fr;
   }
 }
+/* Consulting usa el mismo hero que research */
+.hero--consulting{
+  min-height: 85vh;
+}
+
+/* Evita la franja blanca del theme por encima */
+.page-content{
+  padding: 0 !important;
+}
+
+/* Services list limpia */
+.services-block{ margin-top: 10px; }
+.services-list{
+  margin: 10px 0 0 18px;
+  padding: 0;
+}
+.services-list li{
+  margin: 6px 0;
+  line-height: 1.55;
+}
+
+/* Separación entre proyectos */
+.research-spaced{
+  margin-top: 40px;
+}
+
+/* En móvil, un poco menos de aire */
+@media (max-width: 900px){
+  .research-spaced{ margin-top: 26px; }
+}
+
+
