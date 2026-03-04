@@ -385,3 +385,31 @@
 .consulting-box{
   margin-bottom: 40px;
 }
+
+/* CONSULTING layout */
+.consulting-container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:40px;
+  width:100%;
+}
+
+.consulting-box{
+  width:100%;
+  max-width:1000px;
+}
+
+/* services list */
+.services-list{
+  margin:10px 0 0 18px;
+}
+
+.services-list li{
+  margin:6px 0;
+}
+
+/* separación entre proyectos */
+.research-spaced{
+  margin-top:40px;
+}
