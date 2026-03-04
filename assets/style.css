@@ -381,4 +381,14 @@
   .research-spaced{ margin-top: 26px; }
 }
 
+/* Minima: quita padding del contenedor en páginas con hero */
+.page-content {
+  padding: 0 !important;
+}
 
+/* (Opcional) si aún ves margen lateral por wrapper */
+.wrapper {
+  max-width: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
