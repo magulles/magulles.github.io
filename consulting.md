@@ -79,6 +79,30 @@ permalink: /consulting/
 
       </article>
 
+  <!-- PROJECT 3 -->
+      <article class="research-card research-card--hero research-spaced">
+
+        <div class="research-text">
+          <h2 class="research-title">
+            Sistema operacional de predicción de oleaje para el puerto exterior de Ciudadela.    
+          </h2>
+
+          <p class="research-desc">
+            bla bla bla
+          </p>
+        </div>
+
+        <div class="research-figure">
+          <img src="/assets/consulting/fig_estudio_3.png" alt="Seagrass coastal protection figure">
+
+          <p class="figure-caption">
+            Zonas interiores de estudio.
+          </p>
+        </div>
+
+      </article>
+      
+
 
     </div>
 
