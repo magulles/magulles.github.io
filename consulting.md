@@ -11,11 +11,10 @@ permalink: /consulting/
     <!-- SERVICES BOX -->
     <div class="hero-overlay consulting-box">
 
-     <div class="services-header">
+<div class="services-header">
   <h2 class="hero-name">Services</h2>
-  <img src="/assets/logo.png" alt="Marenostre logo" class="services-logo">
+  <img src="/assets/logo.png" class="services-logo" alt="Marenostre logo">
 </div>
-
       <ul class="services-list">
         <li>Coastal protection and nourishment support</li>
         <li>Coastal flood / overtopping risk assessments</li>
