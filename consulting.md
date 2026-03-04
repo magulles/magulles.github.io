@@ -46,10 +46,10 @@ permalink: /consulting/
         </div>
 
         <div class="research-figure">
-          <img src="/assets/research/detect.jpg" alt="Storm surge modelling figure">
+          <img src="/assets/consulting/Hsmap_caso_1.png" alt="Storm surge modelling figure">
 
           <p class="figure-caption">
-            Study site. Mesh contour of the numerical model (black), tide gauge locations (green dots) and refined grid in straits.
+            Oleaje. Alternativas
           </p>
         </div>
 
