@@ -11,20 +11,20 @@ permalink: /consulting/
     <!-- SERVICES BOX -->
     <div class="hero-overlay consulting-box">
 
-<div class="services-header">
-  <h2 class="hero-name">Services</h2>
-  <img src="/assets/logo.png" class="services-logo" alt="Marenostre logo">
+  <div class="services-header">
+    <h2 class="hero-name">Services</h2>
+    <img src="/assets/logo.png" class="services-logo" alt="Marenostre logo">
+  </div>
+
+  <ul class="services-list services-list--icons">
+    <li><span class="s-ico">🌊</span><span>Technical reports on marine climate (waves, winds, sea level statistics) for design and risk assessment.</span></li>
+    <li><span class="s-ico">🏖️</span><span>Shoreline dynamics and beach nourishment studies, including sediment budgets and coastal evolution.</span></li>
+    <li><span class="s-ico">⚓</span><span>Port agitation and operability assessments to optimise downtime, safety and berthing conditions.</span></li>
+    <li><span class="s-ico">🧱</span><span>Coastal infrastructure design support (breakwaters, revetments, seawalls): preliminary sizing and engineering calculations.</span></li>
+    <li><span class="s-ico">🛰️</span><span>Coastal monitoring projects using remote sensing (satellite imagery) and in-situ data integration.</span></li>
+  </ul>
+
 </div>
-      <ul class="services-list">
-        <li>Coastal protection and nourishment support</li>
-        <li>Coastal flood / overtopping risk assessments</li>
-        <li>Port wave agitation / resonance studies</li>
-        <li>Met-ocean analysis and operational alerts</li>
-        <li>Remote sensing coastal monitoring</li>
-      </ul>
-
-    </div>
-
 
     <!-- SELECTED PROJECTS BOX -->
     <div class="hero-overlay consulting-box">
