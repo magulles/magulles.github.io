@@ -476,3 +476,8 @@ RESPONSIVE
   }
 }
 
+/* Resaltar página activa en el menú */
+.site-header .page-link.active {
+  border-bottom: 2px solid #2a6df4;
+  padding-bottom: 4px;
+}
