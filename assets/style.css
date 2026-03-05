@@ -1,3 +1,9 @@
+/* Evita que padding haga overflow en móvil */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Seguridad: evita scroll horizontal si algo se sale 1-2px */
+html, body { overflow-x: hidden; }
+
 /* Oculta encabezados automáticos de algunos themes Jekyll */
 .page-heading,
 .post-title,
@@ -5,6 +11,8 @@
 .page-header {
   display: none !important;
 }
+
+
 
 /* HERO */
 .hero {
