@@ -24,6 +24,15 @@ permalink: /research/
     <li><span class="s-ico">🛰️</span><span>Coastal monitoring projects using remote sensing (satellite imagery).</span></li>
   </ul>
 
+         <li>
+            <span class="s-ico">🧾</span>
+          See all publications 
+            <a href="https://orcid.org/0000-0003-3501-2899/" target="_blank">
+            ORCID 
+            </a>
+          </li>
+
+
 </div>
 
     <!-- SELECTED PROJECTS BOX -->
