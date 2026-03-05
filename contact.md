@@ -43,8 +43,10 @@ permalink: /contact/
 
           <li>
             <span class="s-ico">🧾</span>
-            <strong>ORCID:</strong> 0000-0003-3601-2899
-          </li>
+          <strong>ORCID:</strong> 
+            <a href="https://orcid.org/0000-0003-3501-2899/" target="_blank">
+            Publications
+                </li>
 
         </ul>
 
