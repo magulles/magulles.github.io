@@ -77,7 +77,7 @@ Temporal evolution of Satellite-derived bathymetry at regional scale (NW Mediter
         </div>
 
         <div class="research-figure">
-          <img src="/assets/research/fig_2_updated.pdf" alt="Seagrass coastal protection figure">
+          <img src="/assets/research/methodology.png" alt="Seagrass coastal protection figure">
       
           <p class="figure-caption">
             Framework
