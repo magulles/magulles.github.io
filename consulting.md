@@ -116,7 +116,7 @@ The stability of the structure is assessed by determining the wave conditions at
         </div>
 
         <div class="research-figure">
-          <img src="/assets/consulting/fig_estudio_4.png" alt="Seagrass coastal protection figure">
+          <img src="/assets/consulting/fig_estudio_4.jpg" alt="Seagrass coastal protection figure">
 
           <p class="figure-caption">
             Zonas interiores de estudio.
@@ -124,6 +124,8 @@ The stability of the structure is assessed by determining the wave conditions at
         </div>
 
       </article>
+
+      
 
 
     </div>
