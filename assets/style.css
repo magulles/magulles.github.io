@@ -1,12 +1,14 @@
 /* =========================================================
-   GLOBAL FIXES
-   ========================================================= */
+GLOBAL FIXES
+========================================================= */
 
-/* Evita overflow por padding (clave para móvil) */
-*, *::before, *::after { box-sizing: border-box; }
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
-/* Seguridad: evita scroll horizontal por 1–2px */
-html, body { overflow-x: hidden; }
+html, body {
+  overflow-x: hidden;
+}
 
 /* Oculta encabezados automáticos de Minima */
 .page-heading,
@@ -16,13 +18,15 @@ html, body { overflow-x: hidden; }
   display: none !important;
 }
 
-/* En páginas con hero “custom”, quitamos el padding superior del theme */
-.page-content { padding: 0 !important; }
+/* Quitamos padding superior del theme */
+.page-content {
+  padding: 0 !important;
+}
 
 
 /* =========================================================
-   HEADER (sobre hero)
-   ========================================================= */
+HEADER SOBRE HERO
+========================================================= */
 
 .site-header {
   position: absolute;
@@ -40,14 +44,17 @@ html, body { overflow-x: hidden; }
   font-weight: 500;
 }
 
-.site-header a:hover { color: #000000 !important; }
+.site-header a:hover {
+  color: #000;
+}
 
 
 /* =========================================================
-   HERO (base)
-   ========================================================= */
+HERO FULL WIDTH (SIN ZOOM RARO)
+========================================================= */
+
 .hero {
-  position: relative;          /* necesario para ::before */
+  position: relative;
   z-index: 0;
 
   min-height: 75vh;
@@ -58,338 +65,333 @@ html, body { overflow-x: hidden; }
   width: 100%;
   margin: 0;
   margin-top: -80px;
+
   padding: 100px 20px;
   padding-top: 180px;
-  color: white;
 
-  background: none;            /* el fondo lo pone ::before */
+  color: white;
 }
 
-
+/* Fondo full width */
 .hero::before{
   content: "";
   position: absolute;
   inset: 0;
   z-index: -1;
 
-  /* full-bleed sin 100vw */
+  width: 100vw;
   left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  transform: translateX(-50%);
 
   background-image: url('/assets/hero.jpg');
   background-size: cover;
   background-position: center;
 }
 
-.hero-overlay{ position: relative; z-index: 1; }
 
 /* =========================================================
-   HOME: ABOUT
-   ========================================================= */
+HERO OVERLAY (BOX GRIS)
+========================================================= */
 
-.about-grid {
-  display: flex;
-  align-items: center;
-  gap: 60px;
-}
+.hero-overlay{
+  position: relative;
+  z-index: 1;
 
-.about-left {
-  flex: 0 0 280px;
-  text-align: center;
-}
+  background: rgba(0,0,0,.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 
-.about-right {
-  flex: 1;
-  max-width: 650px;
-}
-
-.about-avatar {
-  width: 220px;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 24px;
-  border: 4px solid rgba(255,255,255,0.9);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
-}
-
-.about-role {
-  margin-top: 14px;
-  font-size: 0.9rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  opacity: 0.85;
-}
-
-
-/* =========================================================
-   HOME: INTERESTS (punto + icono + nombre)
-   ========================================================= */
-
-.interests-block { margin-top: 28px; }
-
-.bridge-heading {
-  font-size: 1.05rem;
-  font-weight: 600;
-  letter-spacing: 0.6px;
-  text-transform: uppercase;
-  opacity: 0.9;
-  margin: 0 0 12px 0;
-}
-
-.interests-block .icon-grid{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.interests-block .icon-card{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  background: transparent !important;
-  border: 0 !important;
-  box-shadow: none !important;
-  padding: 0 !important;
-  border-radius: 0 !important;
-
-  cursor: default !important;
-}
-
-.interests-block .icon-card::before{
-  content: "•";
-  display: inline-block;
-  width: 14px;
-  text-align: center;
-  opacity: 0.9;
-  transform: translateY(-1px);
-}
-
-.interests-block .icon-card .icon{
-  font-size: 18px;
-  width: 22px;
-  text-align: center;
-}
-
-.interests-block .icon-card:hover{
-  transform: none !important;
-  background: transparent !important;
-  box-shadow: none !important;
-}
-
-
-/* =========================================================
-   EDUCATION
-   ========================================================= */
-
-.education-block { margin-top: 45px; }
-
-.education-list {
-  list-style: none;
-  padding: 0;
-  margin: 15px 0 0 0;
-}
-
-.education-list li {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  margin-bottom: 14px;
-  font-size: 1rem;
-
-  border-left: 2px solid rgba(255,255,255,0.3);
-  padding-left: 12px;
-}
-
-.edu-icon {
-  font-size: 18px;
-  opacity: 0.8;
-  width: 22px;
-  text-align: center;
-}
-
-
-/* =========================================================
-   RESEARCH (cards / grid)
-   ========================================================= */
-
-.section-intro { margin: 10px 0 26px 0; }
-.page-title { margin: 0 0 6px 0; }
-
-.page-subtitle {
-  margin: 0;
-  opacity: 0.8;
-  max-width: 780px;
-}
-
-.research-grid {
-  display: grid;
-  gap: 18px;
-  margin-top: 60px;
-}
-
-/* “Card pro” (si la usas fuera del hero) */
-.research-card {
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 28px;
-  align-items: start;
-
-  padding: 22px;
+  padding: 32px 40px;
   border-radius: 16px;
 
-  background: rgba(0,0,0,0.04);
-  border: 1px solid rgba(0,0,0,0.08);
-}
-
-/* Dentro del hero-overlay (sin caja propia) */
-.research-card--hero{
-  background: transparent;
-  border: none;
-  padding: 0;
-  border-radius: 0;
-
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 28px;
-  align-items: start;
-}
-
-.research-title { margin: 0 0 10px 0; }
-
-.research-desc {
-  margin: 0 0 14px 0;
-  line-height: 1.65;
-  opacity: 0.9;
-}
-
-.research-figure img {
+  max-width: 1000px;
   width: 100%;
-  height: auto;
-  border-radius: 14px;
-  display: block;
 }
 
-.figure-caption {
-  margin: 8px 0 0 0;
-  font-size: 0.9rem;
-  opacity: 0.75;
+.hero-name{
+  margin-bottom: 12px;
 }
 
-.research-spaced { margin-top: 40px; }
+.hero-highlight{
+  line-height: 1.65;
+  margin-bottom: 18px;
+}
 
 
 /* =========================================================
-   CONSULTING (2 boxes + services header/logo + services icons)
-   ========================================================= */
+HOME: ABOUT
+========================================================= */
+
+.about-grid{
+  display:flex;
+  align-items:center;
+  gap:60px;
+}
+
+.about-left{
+  flex:0 0 280px;
+  text-align:center;
+}
+
+.about-right{
+  flex:1;
+  max-width:650px;
+}
+
+.about-avatar{
+  width:220px;
+  height:220px;
+  object-fit:cover;
+
+  border-radius:24px;
+  border:4px solid rgba(255,255,255,0.9);
+
+  box-shadow:0 10px 30px rgba(0,0,0,0.35);
+}
+
+.about-role{
+  margin-top:14px;
+  font-size:0.9rem;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  opacity:.85;
+}
+
+
+/* =========================================================
+INTERESTS
+========================================================= */
+
+.interests-block{
+  margin-top:28px;
+}
+
+.bridge-heading{
+  font-size:1.05rem;
+  font-weight:600;
+  letter-spacing:.6px;
+  text-transform:uppercase;
+  opacity:.9;
+  margin-bottom:12px;
+}
+
+.icon-grid{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.icon-card{
+  display:flex;
+  align-items:center;
+  gap:10px;
+
+  background:none !important;
+  border:0 !important;
+  box-shadow:none !important;
+  padding:0 !important;
+  border-radius:0 !important;
+}
+
+.icon-card::before{
+  content:"•";
+  width:14px;
+  text-align:center;
+}
+
+.icon-card .icon{
+  font-size:18px;
+  width:22px;
+  text-align:center;
+}
+
+
+/* =========================================================
+EDUCATION
+========================================================= */
+
+.education-block{
+  margin-top:45px;
+}
+
+.education-list{
+  list-style:none;
+  padding:0;
+  margin-top:15px;
+}
+
+.education-list li{
+  display:flex;
+  gap:12px;
+
+  border-left:2px solid rgba(255,255,255,.3);
+  padding-left:12px;
+
+  margin-bottom:14px;
+}
+
+.edu-icon{
+  font-size:18px;
+  width:22px;
+  text-align:center;
+}
+
+
+/* =========================================================
+RESEARCH
+========================================================= */
+
+.section-intro{
+  margin:10px 0 26px 0;
+}
+
+.research-card{
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:28px;
+  align-items:start;
+}
+
+.research-title{
+  margin-bottom:10px;
+}
+
+.research-desc{
+  line-height:1.65;
+}
+
+.research-figure img{
+  width:100%;
+  border-radius:14px;
+}
+
+.figure-caption{
+  font-size:.9rem;
+  opacity:.75;
+  margin-top:8px;
+}
+
+.research-spaced{
+  margin-top:40px;
+}
+
+
+/* =========================================================
+CONSULTING
+========================================================= */
 
 .consulting-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-  width: 100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:40px;
 }
 
 .consulting-box{
-  width: 100%;
-  max-width: 1000px;
+  width:100%;
+  max-width:1000px;
 }
 
-/* Títulos dentro de consulting */
+/* título sección */
 .hero--consulting .consulting-box > .hero-name{
-  font-size: 2rem;
-  margin-bottom: 14px;
+  font-size:2rem;
+  margin-bottom:14px;
 }
 
-/* Bajar tamaño del título de cada proyecto en consulting */
+/* títulos de proyectos */
 .hero--consulting .research-title{
-  font-size: 1.35rem;
-  line-height: 1.35;
-  margin: 8px 0 12px 0;
+  font-size:1.35rem;
+  line-height:1.35;
 }
 
-/* Services header con logo */
+
+/* services header */
+
 .services-header{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 }
 
 .services-logo{
-  height: 35px;
-  width: auto;
-  opacity: 0.9;
+  height:35px;
+  opacity:.9;
 }
 
-/* Services list con iconos */
+
+/* services list */
+
 .services-list--icons{
-  list-style: none;
-  padding-left: 0;
-  margin: 12px 0 0 0;
+  list-style:none;
+  padding:0;
+  margin-top:12px;
 }
 
 .services-list--icons li{
-  display: flex;
-  gap: 10px;
-  align-items: flex-start;
-  margin: 10px 0;
-  line-height: 1.55;
+  display:flex;
+  gap:10px;
+  margin:10px 0;
+  line-height:1.55;
 }
 
-.services-list--icons .s-ico{
-  width: 22px;
-  text-align: center;
-  flex: 0 0 22px;
-  opacity: 0.95;
-  transform: translateY(1px);
+.s-ico{
+  width:22px;
+  text-align:center;
 }
 
 
 /* =========================================================
-   RESPONSIVE
-   ========================================================= */
+RESPONSIVE
+========================================================= */
 
-@media (max-width: 900px) {
-  .hero { padding: 70px 16px; padding-top: 180px; }
-  .hero-overlay { padding: 24px 18px; }
+@media (max-width:900px){
 
-  .about-grid {
-    flex-direction: column;
-    text-align: center;
-    gap: 22px;
-  }
+.hero{
+  padding:70px 16px;
+  padding-top:180px;
+}
 
-  .about-left { flex: none; }
-  .about-right { max-width: 100%; }
+.hero-overlay{
+  padding:24px 18px;
+}
 
-  .research-card { grid-template-columns: 1fr; }
-  .research-card--hero { grid-template-columns: 1fr; }
+.about-grid{
+  flex-direction:column;
+  text-align:center;
+  gap:22px;
+}
 
-  .research-spaced { margin-top: 26px; }
+.about-right{
+  max-width:100%;
+}
 
-  /* Consulting: que el hero “crezca” con el contenido y no corte el fondo */
-  .hero--consulting{
-    justify-content: flex-start;
-    align-items: stretch;
-    min-height: auto;
-    padding-bottom: 60px;
-  }
+.research-card{
+  grid-template-columns:1fr;
+}
 
-  .consulting-container{ padding: 0 16px; }
-  .consulting-box{ max-width: 100%; }
+.research-spaced{
+  margin-top:26px;
+}
 
-  /* Logo services: que no se salga */
-  .services-header{
-    flex-wrap: wrap;
-    gap: 10px;
-  }
+/* consulting hero crecimiento natural */
 
-  .services-logo{
-    height: 28px;
-    max-width: 45vw;
-    object-fit: contain;
-  }
+.hero--consulting{
+  min-height:auto;
+  padding-bottom:60px;
+}
+
+.consulting-container{
+  padding:0 16px;
+}
+
+.services-header{
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.services-logo{
+  height:28px;
+  max-width:45vw;
+}
+
 }
