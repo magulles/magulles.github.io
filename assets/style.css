@@ -502,49 +502,34 @@ line-height:1.35;
   gap: 30px;
 }
 
-.site-title-block {
+/* ===== Header title + subtitle (FIX) ===== */
+.site-title-block{
+  float: left;
   display: flex;
   flex-direction: column;
+  padding-right: 56px; /* deja espacio para el botón hamburguesa en móvil */
 }
 
-.site-subtitle {
-  font-size: 14px;
-  color: #666;
-  margin-top: -6px;
-}
-
-.site-title-block { display: inline-block; }
-.site-subtitle {
+.site-subtitle{
   display: block;
   font-size: 14px;
   color: #666;
   margin-top: -6px;
-}
-.site-title-block { float: left; }
-
-.site-subtitle{
-  display:block;
-  font-size:14px;
-  color:#666;
-  margin-top:-6px;
-  white-space: nowrap;       /* no partir */
-  overflow: hidden;          /* ocultar lo que sobra */
-  text-overflow: ellipsis;   /* ... */
-  max-width: 75vw;           /* evita que choque con el botón del menú */
+  line-height: 1.2;
 }
 
-.site-title-block {
-  display: flex;
-  flex-direction: column;
-  float: left;
-}
-
-.site-subtitle {
-  font-size: 14px;
-  color: #666;
-  margin-top: -6px;
-}
-
-.site-nav {
+/* Nav a la derecha */
+.site-nav{
   float: right;
 }
+
+/* Móvil: que el subtítulo NO se recorte raro */
+@media screen and (max-width: 600px){
+  .site-subtitle{
+    white-space: normal;   /* IMPORTANTE: permitir salto de línea */
+    overflow: visible;     /* quitar recorte */
+    text-overflow: clip;
+    max-width: none;
+  }
+}
+
