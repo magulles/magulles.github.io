@@ -35,7 +35,7 @@ permalink: /research/
     <!-- SELECTED PROJECTS BOX -->
     <div class="hero-overlay consulting-box">
 
-      <h2 class="hero-name">Selected publications</h2>
+      <h2 class="hero-name">Recent publications</h2>
 
 
       <!-- RESEARCH 1 -->
@@ -43,19 +43,20 @@ permalink: /research/
 
         <div class="research-text">
           <h2 class="research-title">
-            Study of alternatives to reduce interior agitation in the Port of Cala Gamba.
+            Storm surge modelling along European coastlines: The effect of the spatio-temporal resolution of the atmospheric forcing.
           </h2>
 
           <p class="research-desc">
-            For this study, several tasks were carried out. First, the maritime climate in the vicinity of the port was obtained. Second, a statistical analysis of the wave conditions was performed. Third, representative sea states corresponding to the range of wave conditions were propagated inside the port under different design proposals using the MSP model and Celeris. Finally, the flooding level and overtopping of the quay wall were analysed by combining numerical modelling with empirical equations.
+            The spatio-temporal resolution of atmospheric forcing plays a key role in the accuracy of simulated storm surges with hydrodynamic numerical models. Here, we generate five hydrodynamic hindcasts of coastal storm surges along the European Atlantic and the Mediterranean Sea coasts, forced with atmospheric fields of varying temporal (hourly and daily) and spatial (0.25º
+ to 2º) resolution since 1940.
           </p>
         </div>
 
         <div class="research-figure">
-          <img src="/assets/consulting/detect.png" alt="Storm surge modelling figure">
+          <img src="/assets/research/fig_1_research.png" alt="Storm surge modelling figure">
 
           <p class="figure-caption">
-            Oleaje. Alternativas
+             Study site. Mesh contour of the numerical model (in black), tide gauge locations (green dots) and straits with refined grid (red squares) for The English Channel (A) and the Gibraltar Strait (B).
           </p>
         </div>
 
@@ -67,19 +68,19 @@ permalink: /research/
 
         <div class="research-text">
           <h2 class="research-title">
-            Study of maritime climate, harbour agitation, and overtopping for the administrative concession project for the construction and operation of the nautical-sports area located to the west of the Port of Málaga. 
+Temporal evolution of Satellite-derived bathymetry at regional scale (NW Mediterranean)
           </h2>
 
           <p class="research-desc">
-            1) maritime climate in the vicinity of the port was obtained. 2) a statistical analysis of the wave conditions was performed. 3), representative sea states  were propagated inside the port under different design proposals using the MSP model . Design of the rubble mound breakwater.
+            
           </p>
         </div>
 
         <div class="research-figure">
-          <img src="/assets/consulting/fig_estudio_2.png" alt="Seagrass coastal protection figure">
+          <img src="/assets/reseach/fig_2_research.png" alt="Seagrass coastal protection figure">
 
           <p class="figure-caption">
-            Zonas interiores de estudio.
+            
           </p>
         </div>
 
