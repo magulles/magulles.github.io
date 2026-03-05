@@ -454,3 +454,24 @@ RESPONSIVE
 .consulting-box{
   max-width: 1120px;
 }
+
+/* Consulting (móvil): mantener Services + logo en la misma línea */
+@media (max-width: 900px){
+  .services-header{
+    flex-wrap: nowrap;           /* NO saltar de línea */
+    gap: 12px;
+  }
+
+  .services-header .hero-name{
+    flex: 1;
+    min-width: 0;               /* permite que el texto se ajuste */
+    font-size: 1.7rem;          /* un poco menor en móvil */
+    margin: 0;
+  }
+
+  .services-logo{
+    height: 22px;               /* más pequeño para que quepa */
+    max-width: 34vw;
+    flex: 0 0 auto;
+  }
+}
