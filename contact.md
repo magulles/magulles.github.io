@@ -25,7 +25,7 @@ permalink: /contact/
 
           <li>
             <span class="s-ico">📍</span>
-            <strong>Location:</strong> Denia, Alicante, Spain
+            <strong>Location:</strong> Denia (Spain)
           </li>
 
           <li>
