@@ -79,7 +79,7 @@ Mediterranean seagrasses provide essential coastal protection under climate chan
           <img src="/assets/research/fig_2_research.png" alt="Seagrass coastal protection figure">
       
           <p class="figure-caption">
-            Framework
+            Wave simulation with and without seagrass meadow.
           </p>
         </div>
 
