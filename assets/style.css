@@ -512,3 +512,14 @@ line-height:1.35;
   color: #666;
   margin-top: -6px;
 }
+
+.site-title-block {
+  float: left;              /* <-- clave: vuelve a subir el menú */
+}
+
+.site-subtitle {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-top: -6px;
+}
