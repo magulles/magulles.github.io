@@ -4,6 +4,53 @@ title: Contact
 permalink: /contact/
 ---
 
-Email: miguelagulles@gmail.com  
-ORCID: 0000-0003-3501-2899  
-LinkedIn: [(add link)](https://www.linkedin.com/in/miguel-agulles-g%C3%A1mez-14415071/)
+<section class="hero hero--research">
+  <div class="hero-overlay">
+
+    <div class="consulting-container">
+
+      <div class="consulting-box">
+
+        <h2 class="hero-name">Contact</h2>
+
+        <ul class="services-list--icons">
+
+          <li>
+            <span class="s-ico">📧</span>
+            <strong>Email:</strong> 
+            <a href="mailto:miguelagulles@gmail.com">
+            miguelagulles@gmail.com
+            </a>
+          </li>
+
+          <li>
+            <span class="s-ico">📍</span>
+            <strong>Location:</strong> Mediterranean region, Spain
+          </li>
+
+          <li>
+            <span class="s-ico">📞</span>
+            <strong>Phone:</strong> +34 XXX XXX XXX
+          </li>
+
+          <li>
+            <span class="s-ico">🔗</span>
+            <strong>LinkedIn:</strong> 
+            <a href="https://www.linkedin.com/in/miguel-agulles-g%C3%A1mez-14415071/" target="_blank">
+            LinkedIn profile
+            </a>
+          </li>
+
+          <li>
+            <span class="s-ico">🧾</span>
+            <strong>ORCID:</strong> 0000-0003-3601-2899
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
