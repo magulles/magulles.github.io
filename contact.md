@@ -30,7 +30,7 @@ permalink: /contact/
 
           <li>
             <span class="s-ico">📞</span>
-            <strong>Phone:</strong> +34 XXX XXX XXX
+            <strong>Phone:</strong> +34 646 857 986
           </li>
 
           <li>
