@@ -519,7 +519,7 @@ html, body { overflow-x: hidden; }
 }
 
 /* Fix logo en Services (móvil) */
-@media (max-width: 600px){
+@media (max-width: 900px){
   .services-header{
     flex-wrap: wrap;          /* permite salto de línea */
     gap: 10px;
