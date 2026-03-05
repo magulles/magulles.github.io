@@ -10,15 +10,8 @@ title: Home
       <!-- LEFT: PHOTO -->
       <div class="about-left">
         <img src="/assets/profile.png" alt="Miguel Agulles" class="about-avatar">
-        <p class="about-role">COASTAL OCEANOGRAPHER</p>
+        <p class="about-role">Coastal Oceanographer</p>
 
-<div class="home-contact">
-  <a class="contact-link" href="mailto:miguelagulles@gmail.com">miguelagulles@gmail.com</a>
-  <span class="contact-sep">•</span>
-  <span>Spain</span>
-  <span class="contact-sep">•</span>
-  <a class="contact-link" href="https://www.linkedin.com/in/TUUSUARIO" target="_blank">LinkedIn</a>
-</div>
         
       </div>
 
