@@ -395,3 +395,18 @@ RESPONSIVE
 }
 
 }
+
+/* Evitar “zoom” del fondo en páginas con hero muy alto (Research/Consulting) */
+.hero--research::before,
+.hero--consulting::before{
+  position: fixed;        /* el fondo depende del viewport, no del alto del section */
+  top: 0;
+  height: 100vh;
+  pointer-events: none;
+}
+
+/* Para que el resto de la página no quede con fondo fijo fuera de lugar */
+.hero--research,
+.hero--consulting{
+  position: relative;
+}
