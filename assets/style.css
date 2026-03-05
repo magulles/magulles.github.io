@@ -486,3 +486,18 @@ RESPONSIVE
 font-size:1.35rem;
 line-height:1.35;
 }
+
+/* Contenedor del hero sin “caja gris” (solo centrado y padding) */
+.hero-overlay--clear{
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  padding: 0;              /* el padding lo ponemos en las cajas internas */
+  border-radius: 0;
+  max-width: 1000px;       /* ajusta a tu gusto */
+}
+
+/* Espaciado entre los dos boxes */
+.consulting-container{
+  gap: 30px;
+}
