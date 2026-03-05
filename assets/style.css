@@ -501,20 +501,3 @@ line-height:1.35;
 .consulting-container{
   gap: 30px;
 }
-
-.lang-switch{
-  position:absolute;
-  top:110px;
-  right:40px;
-  font-size:0.9rem;
-  opacity:0.9;
-}
-
-.lang-switch a{
-  color:white;
-  text-decoration:none;
-}
-
-.lang-switch a:hover{
-  text-decoration:underline;
-}
