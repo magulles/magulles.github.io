@@ -475,3 +475,26 @@ RESPONSIVE
     flex: 0 0 auto;
   }
 }
+
+.home-contact{
+  margin-top: 18px;
+  opacity: 0.95;
+  font-size: 0.95rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.home-contact .contact-sep{
+  opacity: 0.6;
+}
+
+.home-contact .contact-link{
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.home-contact .contact-link:hover{
+  opacity: 0.9;
+}
