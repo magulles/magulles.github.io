@@ -4,6 +4,10 @@
 /* Seguridad: evita scroll horizontal si algo se sale 1-2px */
 html, body { overflow-x: hidden; }
 
+@media (max-width: 900px){
+  .hero-overlay { padding: 24px 18px; }
+}
+
 /* Oculta encabezados automáticos de algunos themes Jekyll */
 .page-heading,
 .post-title,
