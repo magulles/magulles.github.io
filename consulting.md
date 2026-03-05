@@ -20,8 +20,8 @@ permalink: /consulting/
     <li><span class="s-ico">🌊</span><span>Marine climate assessments: extremes and long-term trends.</span></li>
     <li><span class="s-ico">🏖️</span><span>Shoreline dynamics and beach nourishment studies.</span></li>
     <li><span class="s-ico">⚓</span><span>Port design assessment to reduce agitation and improve safety and operability.</span></li>
-    <li><span class="s-ico">🧱</span><span>Coastal infrastructure design support (breakwaters, seawalls).</span></li>
-    <li><span class="s-ico">🛰️</span><span>Coastal monitoring projects using remote sensing (satellite imagery)..</span></li>
+    <li><span class="s-ico">🧱</span><span>Coastal infrastructure design support (breakwaters, seawalls and NbS).</span></li>
+    <li><span class="s-ico">🛰️</span><span>Coastal monitoring projects using remote sensing (satellite imagery).</span></li>
   </ul>
 
 </div>
