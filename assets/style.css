@@ -46,11 +46,9 @@ html, body { overflow-x: hidden; }
 /* =========================================================
    HERO (base)
    ========================================================= */
-
 .hero {
-  background-image: url('/assets/hero.jpg');
-  background-size: cover;
-  background-position: center;
+  position: relative;          /* necesario para ::before */
+  z-index: 0;
 
   min-height: 75vh;
   display: flex;
@@ -59,36 +57,33 @@ html, body { overflow-x: hidden; }
 
   width: 100%;
   margin: 0;
-  margin-top: -80px;     /* compensa el header encima */
+  margin-top: -80px;
   padding: 100px 20px;
-  padding-top: 180px;    /* evita que el contenido quede debajo del menú */
+  padding-top: 180px;
   color: white;
+
+  background: none;            /* el fondo lo pone ::before */
 }
 
-/* Variante subpágina (si la usas) */
-.hero--research { min-height: 75vh; }
-.hero--consulting { min-height: 85vh; }
 
-.hero-overlay {
-  background: rgba(0,0,0,.55);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+.hero::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
 
-  display: block;
-  padding: 32px 40px;
-  border-radius: 16px;
+  /* full-bleed sin 100vw */
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 
-  max-width: 1000px;
-  width: 100%;
+  background-image: url('/assets/hero.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
-.hero-name { margin: 0 0 12px 0; }
-
-.hero-highlight {
-  line-height: 1.65;
-  margin: 0 0 18px 0;
-}
-
+.hero-overlay{ position: relative; z-index: 1; }
 
 /* =========================================================
    HOME: ABOUT
