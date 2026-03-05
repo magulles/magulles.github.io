@@ -62,13 +62,36 @@ permalink: /research/
 
       </article>
 
-
-      <!-- PROJECT 2 -->
+       <!-- PROJECT 2 -->
       <article class="research-card research-card--hero research-spaced">
 
         <div class="research-text">
           <h2 class="research-title">
-Temporal evolution of Satellite-derived bathymetry at regional scale (NW Mediterranean)
+Mediterranean seagrasses provide essential coastal protection under climate change.
+</h2>
+
+          <p class="research-desc">
+            eagrasses are vital in coastal areas, offering crucial ecosystem services and playing a relevant role in coastal protection. The decrease in the density of Mediterranean seagrasses over recent decades, due to warming and anthropogenic stressors, may imply a serious environmental threat. Here we quantify the role of coastal impact reduction induced by seagrass presence under present and future climate.
+          </p>
+        </div>
+
+        <div class="research-figure">
+          <img src="/assets/research/fig_2_research.png" alt="Seagrass coastal protection figure">
+      
+          <p class="figure-caption">
+            Framework
+          </p>
+        </div>
+
+      </article>
+
+
+      <!-- PROJECT 3 -->
+      <article class="research-card research-card--hero research-spaced">
+
+        <div class="research-text">
+          <h2 class="research-title">
+Temporal evolution of Satellite-derived bathymetry at regional scale (NW Mediterranean). (Under revision)
           </h2>
 
           <p class="research-desc">
