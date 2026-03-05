@@ -46,7 +46,8 @@ permalink: /contact/
           <strong>ORCID:</strong> 
             <a href="https://orcid.org/0000-0003-3501-2899/" target="_blank">
             Publications
-                </li>
+            </a>
+          </li>
 
         </ul>
 
