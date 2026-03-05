@@ -48,7 +48,7 @@ permalink: /research/
           </div>
 
           <div class="research-figure">
-            <img src="/assets/research/seagrass.jpg" alt="Seagrass coastal protection figure">
+            <img src="/assets/research/fig_2_research.png" alt="Seagrass coastal protection figure">
             <p class="figure-caption">Wave attenuation and coastal impact reduction.</p>
           </div>
         </article>
