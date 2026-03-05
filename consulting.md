@@ -6,8 +6,6 @@ permalink: /consulting/
 
 <section class="hero hero--consulting">
     
-  <div class="hero-overlay">
-
   <div class="consulting-container">
 
     <!-- SERVICES BOX -->
