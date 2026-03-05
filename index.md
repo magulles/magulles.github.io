@@ -26,7 +26,7 @@ title: Home
           In parallel, I have participated in more than 10 applied coastal engineering studies.
         </p>
 
-        <a href="/contact/" class="hero-button">Work with me</a>
+        <a href="/contact/" class="hero-button">Contact me</a>
       </div>
     </div>
 
