@@ -438,3 +438,19 @@ RESPONSIVE
   height: 100vh;
   pointer-events: none;
 }
+
+/* 1) Que el HERO salga del wrapper de Minima (full width real) */
+.hero{
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+/* 2) Ahora sí: hacer el box gris más ancho */
+.hero-overlay{
+  max-width: 1120px;   /* prueba 1120–1200 según te guste */
+}
+
+/* Consulting usa además .consulting-box, súbelo también */
+.consulting-box{
+  max-width: 1120px;
+}
