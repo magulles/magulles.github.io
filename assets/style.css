@@ -521,3 +521,14 @@ line-height:1.35;
   margin-top: -6px;
 }
 .site-title-block { float: left; }
+
+.site-subtitle{
+  display:block;
+  font-size:14px;
+  color:#666;
+  margin-top:-6px;
+  white-space: nowrap;       /* no partir */
+  overflow: hidden;          /* ocultar lo que sobra */
+  text-overflow: ellipsis;   /* ... */
+  max-width: 75vw;           /* evita que choque con el botón del menú */
+}
