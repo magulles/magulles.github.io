@@ -410,3 +410,23 @@ RESPONSIVE
 .hero--consulting{
   position: relative;
 }
+
+/* Evitar “zoom” del fondo en heroes MUY altos (Research/Consulting) */
+.hero--research::before,
+.hero--consulting::before{
+  position: fixed;            /* el fondo depende del viewport */
+  top: 0;
+  height: 100vh;              /* tamaño estable */
+  pointer-events: none;
+
+  /* ayuda en móviles (rendering) */
+  will-change: transform;
+  transform: translateX(-50%) translateZ(0);
+}
+
+/* Asegura que el contenido siga por encima */
+.hero--research,
+.hero--consulting{
+  position: relative;
+  z-index: 0;
+}
