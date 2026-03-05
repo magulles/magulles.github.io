@@ -72,15 +72,15 @@ Temporal evolution of Satellite-derived bathymetry at regional scale (NW Mediter
           </h2>
 
           <p class="research-desc">
-            
+            This study proposes a new methodological framework for the regional-scale retrieval and analysis of nearshore bathymetry and its temporal evolution using satellite imagery(Sentinel-2 MSI) at 12 study sites for the period 2018-2024.
           </p>
         </div>
 
         <div class="research-figure">
-          <img src="/assets/reseach/fig_2_research.png" alt="Seagrass coastal protection figure">
-
+          <img src="/assets/research/fig_2_updated.pdf" alt="Seagrass coastal protection figure">
+      
           <p class="figure-caption">
-            
+            Framework
           </p>
         </div>
 
