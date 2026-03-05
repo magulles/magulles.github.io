@@ -4,54 +4,201 @@ title: Research
 permalink: /research/
 ---
 
-<section class="hero hero--research">
-  <div class="hero-overlay">
+<section class="hero hero--consulting">
 
-    <div class="consulting-container">
+  <div class="consulting-container">
 
-      <!-- BOX 1 -->
-      <div class="consulting-box">
-        <h2 class="hero-name">Research lines</h2>
+    <!-- SERVICES BOX -->
+    <div class="hero-overlay consulting-box">
 
-        <ul class="services-list--icons">
-          <li><span class="s-ico">🌊</span><strong>Coastal extreme sea levels</strong> — storm surge modelling and coastal flood risk.</li>
-          <li><span class="s-ico">🏖️</span><strong>Shoreline dynamics</strong> — coastal evolution and beach nourishment.</li>
-          <li><span class="s-ico">🌱</span><strong>Nature-based solutions</strong> — coastal protection using ecosystems.</li>
-        </ul>
-      </div>
+  <div class="services-header">
+    <h2 class="hero-name">Services</h2>
+    <img src="/assets/logo.png" class="services-logo" alt="Marenostre logo">
+  </div>
 
-      <!-- BOX 2 -->
-      <div class="consulting-box">
-        <h2 class="hero-name">Selected publications</h2>
+  <ul class="services-list services-list--icons">
+    <li><span class="s-ico">🌊</span><span>Meteo-ocean climate assessments: extremes and long-term trends.</span></li>
+    <li><span class="s-ico">🏖️</span><span>Shoreline dynamics and beach nourishment studies.</span></li>
+    <li><span class="s-ico">⚓</span><span>Port design assessment to reduce agitation and improve safety and operability.</span></li>
+    <li><span class="s-ico">🧱</span><span>Coastal infrastructure design support (breakwaters, seawalls and NbS).</span></li>
+    <li><span class="s-ico">🛰️</span><span>Coastal monitoring projects using remote sensing (satellite imagery).</span></li>
+  </ul>
 
-        <article class="research-card--hero">
-          <div class="research-text">
-            <h3 class="research-title">Storm surge modelling along European coastlines: The effect of the spatio-temporal resolution of the atmospheric forcing</h3>
-            <p class="research-desc">
-              This study investigates how the spatial and temporal resolution of atmospheric forcing influences storm surge simulations using hydrodynamic models.
-            </p>
-          </div>
-          <div class="research-figure">
-            <img src="/assets/research/detect.jpg" alt="Storm surge figure">
-            <p class="figure-caption">Study site and model setup.</p>
-          </div>
-        </article>
+</div>
 
-        <article class="research-card--hero research-spaced">
-          <div class="research-text">
-            <h3 class="research-title">Mediterranean seagrasses provide essential coastal protection under climate change</h3>
-            <p class="research-desc">
-              This study quantifies the coastal protection provided by Mediterranean seagrasses under present and future climate conditions.
-            </p>
-          </div>
-          <div class="research-figure">
-            <img src="/assets/research/fig_2_research.png" alt="Seagrass figure">
-            <p class="figure-caption">Impact of seagrass meadows on extreme water levels.</p>
-          </div>
-        </article>
+    <!-- SELECTED PROJECTS BOX -->
+    <div class="hero-overlay consulting-box">
 
-      </div>
+      <h2 class="hero-name">Some projects</h2>
+
+
+      <!-- PROJECT 1 -->
+      <article class="research-card research-card--hero">
+
+        <div class="research-text">
+          <h2 class="research-title">
+            Study of alternatives to reduce interior agitation in the Port of Cala Gamba.
+          </h2>
+
+          <p class="research-desc">
+            For this study, several tasks were carried out. First, the maritime climate in the vicinity of the port was obtained. Second, a statistical analysis of the wave conditions was performed. Third, representative sea states corresponding to the range of wave conditions were propagated inside the port under different design proposals using the MSP model and Celeris. Finally, the flooding level and overtopping of the quay wall were analysed by combining numerical modelling with empirical equations.
+          </p>
+        </div>
+
+        <div class="research-figure">
+          <img src="/assets/consulting/fig_estudio_1.png" alt="Storm surge modelling figure">
+
+          <p class="figure-caption">
+            Oleaje. Alternativas
+          </p>
+        </div>
+
+      </article>
+
+
+      <!-- PROJECT 2 -->
+      <article class="research-card research-card--hero research-spaced">
+
+        <div class="research-text">
+          <h2 class="research-title">
+            Study of maritime climate, harbour agitation, and overtopping for the administrative concession project for the construction and operation of the nautical-sports area located to the west of the Port of Málaga. 
+          </h2>
+
+          <p class="research-desc">
+            1) maritime climate in the vicinity of the port was obtained. 2) a statistical analysis of the wave conditions was performed. 3), representative sea states  were propagated inside the port under different design proposals using the MSP model . Design of the rubble mound breakwater.
+          </p>
+        </div>
+
+        <div class="research-figure">
+          <img src="/assets/consulting/fig_estudio_2.png" alt="Seagrass coastal protection figure">
+
+          <p class="figure-caption">
+            Zonas interiores de estudio.
+          </p>
+        </div>
+
+      </article>
+
+  <!-- PROJECT 3 -->
+      <article class="research-card research-card--hero research-spaced">
+
+        <div class="research-text">
+          <h2 class="research-title">
+            Operational wave forecasting system for the outer harbour of Ciutadella.    
+          </h2>
+
+          <p class="research-desc">
+            Together with the company Meteoclim SL, an operational system for very high-resolution wave and wind forecasting was implemented, nesting SWAN and MSP wave models, following prior calibration and validation of the system with in-situ observations.
+          </p>
+        </div>
+
+        <div class="research-figure">
+          <img src="/assets/consulting/fig_estudio_3.png" alt="Seagrass coastal protection figure">
+
+          <p class="figure-caption">
+            Zonas interiores de estudio.
+          </p>
+        </div>
+
+      </article>
+      
+   <!-- PROJECT 4 -->
+      <article class="research-card research-card--hero research-spaced">
+
+        <div class="research-text">
+          <h2 class="research-title">
+            Technical appendix on the stability analysis of the parapet of the North Breakwater of the Port of Barcelona. 
+          </h2>
+
+          <p class="research-desc">
+The stability of the structure is assessed by determining the wave conditions at the toe of the breakwater and performing dynamic calculations of wave-induced forces, considering variations in sea level.
+         </p>
+        </div>
+
+        <div class="research-figure">
+          <img src="/assets/consulting/fig_estudio_4.jpg" alt="Seagrass coastal protection figure">
+
+          <p class="figure-caption">
+            Zonas interiores de estudio.
+          </p>
+        </div>
+
+      </article>
+
+       <!-- PROJECT 5 -->
+      <article class="research-card research-card--hero research-spaced">
+
+        <div class="research-text">
+          <h2 class="research-title">
+           Study of harbour agitation and resonance in the Port of Alicante. 
+          </h2>
+
+          <p class="research-desc">
+    The causes of the harbour agitation and resonance phenomena are analysed through numerical modelling and statistical reconstruction of the wave climate inside the port, and different intervention alternatives are proposed.
+         </p>
+        </div>
+
+        <div class="research-figure">
+          <img src="/assets/consulting/fig_estudio_5.png" alt="Seagrass coastal protection figure">
+
+          <p class="figure-caption">
+            Zonas interiores de estudio.
+          </p>
+        </div>
+
+      </article>
+
+       <!-- PROJECT 6 -->
+      <article class="research-card research-card--hero research-spaced">
+
+        <div class="research-text">
+          <h2 class="research-title">
+           Meteoport at Port d’Andratx.
+          </h2>
+
+          <p class="research-desc">
+   Wave forecasting system at the harbour entrance and inside the Port d’Andratx marina, Mallorca.
+         </p>
+        </div>
+
+        <div class="research-figure">
+          <img src="/assets/consulting/fig_estudio_6.PNG" alt="Seagrass coastal protection figure">
+
+          <p class="figure-caption">
+            Zonas interiores de estudio.
+          </p>
+        </div>
+
+      </article>
+
+         <!-- PROJECT 7 -->
+      <article class="research-card research-card--hero research-spaced">
+
+        <div class="research-text">
+          <h2 class="research-title">
+           Basic study of coastal dynamics at Playa de Palma.
+          </h2>
+
+          <p class="research-desc">
+The equilibrium beach profile and planform at Playa de Palma are analysed after examining the wave conditions in the vicinity of the study area in both the short and long term.
+</p>
+        </div>
+
+        <div class="research-figure">
+          <img src="/assets/consulting/fig_estudio_7.PNG" alt="Seagrass coastal protection figure">
+
+          <p class="figure-caption">
+            Zonas interiores de estudio.
+          </p>
+        </div>
+
+      </article>
+
+      
+
 
     </div>
+
   </div>
+
 </section>
