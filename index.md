@@ -10,7 +10,6 @@ title: Home
       <!-- LEFT: PHOTO -->
       <div class="about-left">
         <img src="/assets/profile.png" alt="Miguel Agulles" class="about-avatar">
-        <p class="about-role">Coastal Oceanographer</p>
 
         
       </div>
