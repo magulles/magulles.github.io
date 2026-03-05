@@ -518,15 +518,16 @@ html, body { overflow-x: hidden; }
   transform: translateY(1px);
 }
 
+/* Fix logo en Services (móvil) */
 @media (max-width: 900px){
   .services-header{
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+    flex-wrap: wrap;          /* permite salto de línea */
+    gap: 10px;
   }
 
   .services-logo{
-    height: 28px;
-    max-width: 70%;
+    height: 28px;             /* más pequeño en móvil */
+    max-width: 45vw;          /* nunca más ancho que media pantalla */
+    object-fit: contain;
   }
 }
