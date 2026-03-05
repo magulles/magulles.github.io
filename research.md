@@ -12,16 +12,13 @@ permalink: /research/
     <div class="hero-overlay consulting-box">
 
   <div class="services-header">
-    <h2 class="hero-name">Services</h2>
-    <img src="/assets/logo.png" class="services-logo" alt="Marenostre logo">
+    <h2 class="hero-name">Lines of investigation</h2>
   </div>
 
   <ul class="services-list services-list--icons">
-    <li><span class="s-ico">🌊</span><span>Meteo-ocean climate assessments: extremes and long-term trends.</span></li>
-    <li><span class="s-ico">🏖️</span><span>Shoreline dynamics and beach nourishment studies.</span></li>
-    <li><span class="s-ico">⚓</span><span>Port design assessment to reduce agitation and improve safety and operability.</span></li>
-    <li><span class="s-ico">🧱</span><span>Coastal infrastructure design support (breakwaters, seawalls and NbS).</span></li>
-    <li><span class="s-ico">🛰️</span><span>Coastal monitoring projects using remote sensing (satellite imagery).</span></li>
+    <li><span class="s-ico">🌊</span><span>1) Coastal extreme sea levels and mean sea level rise.</span></li>
+    <li><span class="s-ico">🏖️</span><span>2) Short and long-term assessment of beach coastal dynamics</span></li>
+    <li><span class="s-ico">🛰️</span><span>3) Remote sensing approach with msi satellite imagery</span></li>
   </ul>
 
          <li>
@@ -38,10 +35,10 @@ permalink: /research/
     <!-- SELECTED PROJECTS BOX -->
     <div class="hero-overlay consulting-box">
 
-      <h2 class="hero-name">Some projects</h2>
+      <h2 class="hero-name">Selected publications</h2>
 
 
-      <!-- PROJECT 1 -->
+      <!-- RESEARCH 1 -->
       <article class="research-card research-card--hero">
 
         <div class="research-text">
@@ -55,7 +52,7 @@ permalink: /research/
         </div>
 
         <div class="research-figure">
-          <img src="/assets/consulting/fig_estudio_1.png" alt="Storm surge modelling figure">
+          <img src="/assets/consulting/detect.png" alt="Storm surge modelling figure">
 
           <p class="figure-caption">
             Oleaje. Alternativas
