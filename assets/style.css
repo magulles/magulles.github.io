@@ -1,14 +1,14 @@
-/* Evita que padding haga overflow en móvil */
+/* =========================================================
+   GLOBAL FIXES
+   ========================================================= */
+
+/* Evita overflow por padding (clave para móvil) */
 *, *::before, *::after { box-sizing: border-box; }
 
-/* Seguridad: evita scroll horizontal si algo se sale 1-2px */
+/* Seguridad: evita scroll horizontal por 1–2px */
 html, body { overflow-x: hidden; }
 
-@media (max-width: 900px){
-  .hero-overlay { padding: 24px 18px; }
-}
-
-/* Oculta encabezados automáticos de algunos themes Jekyll */
+/* Oculta encabezados automáticos de Minima */
 .page-heading,
 .post-title,
 .post-header,
@@ -16,13 +16,37 @@ html, body { overflow-x: hidden; }
   display: none !important;
 }
 
-.hero{
+/* En páginas con hero “custom”, quitamos el padding superior del theme */
+.page-content { padding: 0 !important; }
+
+
+/* =========================================================
+   HEADER (sobre hero)
+   ========================================================= */
+
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  margin-left: 0;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  z-index: 1000;
 }
 
+.site-header a {
+  color: #2a2a2a !important;
+  font-weight: 500;
+}
 
-/* HERO */
+.site-header a:hover { color: #000000 !important; }
+
+
+/* =========================================================
+   HERO (base)
+   ========================================================= */
+
 .hero {
   background-image: url('/assets/hero.jpg');
   background-size: cover;
@@ -33,14 +57,17 @@ html, body { overflow-x: hidden; }
   align-items: center;
   justify-content: center;
 
-  /* Header transparente encima del hero */
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-top: -80px;      /* ajusta si el header es más alto */
+  width: 100%;
+  margin: 0;
+  margin-top: -80px;     /* compensa el header encima */
   padding: 100px 20px;
-  padding-top: 180px;     /* compensa el espacio */
+  padding-top: 180px;    /* evita que el contenido quede debajo del menú */
   color: white;
 }
+
+/* Variante subpágina (si la usas) */
+.hero--research { min-height: 75vh; }
+.hero--consulting { min-height: 85vh; }
 
 .hero-overlay {
   background: rgba(0,0,0,.55);
@@ -62,28 +89,11 @@ html, body { overflow-x: hidden; }
   margin: 0 0 18px 0;
 }
 
-/* HEADER TRANSPARENTE SOBRE HERO */
-.site-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-  z-index: 1000;
-}
 
-.site-header a {
-  color: #2a2a2a !important;
-  font-weight: 500;
-}
+/* =========================================================
+   HOME: ABOUT
+   ========================================================= */
 
-.site-header a:hover {
-  color: #000000 !important;
-}
-
-/* ABOUT LAYOUT */
 .about-grid {
   display: flex;
   align-items: center;
@@ -117,7 +127,11 @@ html, body { overflow-x: hidden; }
   opacity: 0.85;
 }
 
-/* INTERESTS */
+
+/* =========================================================
+   HOME: INTERESTS (punto + icono + nombre)
+   ========================================================= */
+
 .interests-block { margin-top: 28px; }
 
 .bridge-heading {
@@ -129,40 +143,52 @@ html, body { overflow-x: hidden; }
   margin: 0 0 12px 0;
 }
 
-/* Intereses SIN cajas: lista vertical con icono */
-.icon-grid {
+.interests-block .icon-grid{
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
-.icon-card {
+.interests-block .icon-card{
   display: flex;
   align-items: center;
   gap: 10px;
 
-  /* “des-caja” */
   background: transparent !important;
-  border: none !important;
+  border: 0 !important;
   box-shadow: none !important;
   padding: 0 !important;
   border-radius: 0 !important;
+
   cursor: default !important;
 }
 
-.icon-card:hover {
-  transform: none !important;
-  box-shadow: none !important;
-  background: transparent !important;
+.interests-block .icon-card::before{
+  content: "•";
+  display: inline-block;
+  width: 14px;
+  text-align: center;
+  opacity: 0.9;
+  transform: translateY(-1px);
 }
 
-.icon-card .icon {
+.interests-block .icon-card .icon{
   font-size: 18px;
   width: 22px;
   text-align: center;
 }
 
-/* EDUCATION */
+.interests-block .icon-card:hover{
+  transform: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+
+/* =========================================================
+   EDUCATION
+   ========================================================= */
+
 .education-block { margin-top: 45px; }
 
 .education-list {
@@ -189,9 +215,12 @@ html, body { overflow-x: hidden; }
   text-align: center;
 }
 
-/* RESEARCH page */
-.section-intro { margin: 10px 0 26px 0; }
 
+/* =========================================================
+   RESEARCH (cards / grid)
+   ========================================================= */
+
+.section-intro { margin: 10px 0 26px 0; }
 .page-title { margin: 0 0 6px 0; }
 
 .page-subtitle {
@@ -206,7 +235,7 @@ html, body { overflow-x: hidden; }
   margin-top: 60px;
 }
 
-/* Card estilo “pro” */
+/* “Card pro” (si la usas fuera del hero) */
 .research-card {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
@@ -220,7 +249,19 @@ html, body { overflow-x: hidden; }
   border: 1px solid rgba(0,0,0,0.08);
 }
 
-/* Tipografía */
+/* Dentro del hero-overlay (sin caja propia) */
+.research-card--hero{
+  background: transparent;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 28px;
+  align-items: start;
+}
+
 .research-title { margin: 0 0 10px 0; }
 
 .research-desc {
@@ -229,27 +270,6 @@ html, body { overflow-x: hidden; }
   opacity: 0.9;
 }
 
-/* Tags */
-.research-tags {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.research-tags li {
-  padding: 6px 10px;
-  border-radius: 999px;
-  font-size: 0.9rem;
-
-  background: rgba(0,0,0,0.06);
-  border: 1px solid rgba(0,0,0,0.08);
-}
-
-/* Figure */
 .research-figure img {
   width: 100%;
   height: auto;
@@ -263,11 +283,83 @@ html, body { overflow-x: hidden; }
   opacity: 0.75;
 }
 
-/* RESPONSIVE */
+.research-spaced { margin-top: 40px; }
+
+
+/* =========================================================
+   CONSULTING (2 boxes + services header/logo + services icons)
+   ========================================================= */
+
+.consulting-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.consulting-box{
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* Títulos dentro de consulting */
+.hero--consulting .consulting-box > .hero-name{
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+
+/* Bajar tamaño del título de cada proyecto en consulting */
+.hero--consulting .research-title{
+  font-size: 1.35rem;
+  line-height: 1.35;
+  margin: 8px 0 12px 0;
+}
+
+/* Services header con logo */
+.services-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services-logo{
+  height: 35px;
+  width: auto;
+  opacity: 0.9;
+}
+
+/* Services list con iconos */
+.services-list--icons{
+  list-style: none;
+  padding-left: 0;
+  margin: 12px 0 0 0;
+}
+
+.services-list--icons li{
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin: 10px 0;
+  line-height: 1.55;
+}
+
+.services-list--icons .s-ico{
+  width: 22px;
+  text-align: center;
+  flex: 0 0 22px;
+  opacity: 0.95;
+  transform: translateY(1px);
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
 @media (max-width: 900px) {
   .hero { padding: 70px 16px; padding-top: 180px; }
-
-  .hero-overlay { padding: 26px 20px; }
+  .hero-overlay { padding: 24px 18px; }
 
   .about-grid {
     flex-direction: column;
@@ -276,258 +368,33 @@ html, body { overflow-x: hidden; }
   }
 
   .about-left { flex: none; }
-
   .about-right { max-width: 100%; }
 
   .research-card { grid-template-columns: 1fr; }
-}
+  .research-card--hero { grid-template-columns: 1fr; }
 
-/* INTERESTS: punto + icono + nombre (sin barras) */
-.interests-block .icon-grid{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
+  .research-spaced { margin-top: 26px; }
 
-.interests-block .icon-card{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  /* quitar efecto barra/caja sí o sí */
-  background: transparent !important;
-  border: 0 !important;
-  box-shadow: none !important;
-  padding: 0 !important;
-  border-radius: 0 !important;
-
-  cursor: default !important;
-}
-
-/* el punto */
-.interests-block .icon-card::before{
-  content: "•";
-  display: inline-block;
-  width: 14px;          /* alineación tipo lista */
-  text-align: center;
-  opacity: 0.9;
-  transform: translateY(-1px);
-}
-
-/* icono alineado como en Education */
-.interests-block .icon-card .icon{
-  font-size: 18px;
-  width: 22px;
-  text-align: center;
-}
-
-/* sin hover raro */
-.interests-block .icon-card:hover{
-  transform: none !important;
-  background: transparent !important;
-  box-shadow: none !important;
-}
-
-/* ========== RESEARCH como HOME (hero + caja gris) ========== */
-
-/* Evita que el theme meta márgenes raros alrededor del hero en páginas */
-.page-content { padding: 0 !important; }
-
-/* Hero más corto que Home (ajusta a gusto) */
-.hero--research{
-  min-height: 75vh;   /* pon 60vh si lo quieres más compacto */
-}
-
-/* Layout interno del contenido */
-.research-card--hero{
-  /* quitamos el “card pro” de research, porque ya estás dentro del overlay */
-  background: transparent;
-  border: none;
-  padding: 0;
-  border-radius: 0;
-
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 28px;
-  align-items: start;
-}
-
-/* Imagen dentro del overlay: que no se salga y se vea “pro” */
-.research-card--hero .research-figure img{
-  width: 100%;
-  height: auto;
-  border-radius: 14px;
-  display: block;
-}
-
-/* Responsive */
-@media (max-width: 900px){
-  .research-card--hero{
-    grid-template-columns: 1fr;
-  }
-}
-/* Consulting usa el mismo hero que research */
-.hero--consulting{
-  min-height: 85vh;
-}
-
-/* Evita la franja blanca del theme por encima */
-.page-content{
-  padding: 0 !important;
-}
-
-/* Services list limpia */
-.services-block{ margin-top: 10px; }
-.services-list{
-  margin: 10px 0 0 18px;
-  padding: 0;
-}
-.services-list li{
-  margin: 6px 0;
-  line-height: 1.55;
-}
-
-/* Separación entre proyectos */
-.research-spaced{
-  margin-top: 40px;
-}
-
-/* En móvil, un poco menos de aire */
-@media (max-width: 900px){
-  .research-spaced{ margin-top: 26px; }
-}
-
-/* separación entre boxes de consulting */
-.consulting-box{
-  margin-bottom: 40px;
-}
-
-/* CONSULTING layout */
-.consulting-container{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  gap:40px;
-  width:100%;
-}
-
-.consulting-box{
-  width:100%;
-  max-width:1000px;
-}
-
-/* services list */
-.services-list{
-  margin:10px 0 0 18px;
-}
-
-.services-list li{
-  margin:6px 0;
-}
-
-/* separación entre proyectos */
-.research-spaced{
-  margin-top:40px;
-}
-
-/* --- Fix móvil: boxes dentro del fondo del hero (Consulting) --- */
-@media (max-width: 900px){
+  /* Consulting: que el hero “crezca” con el contenido y no corte el fondo */
   .hero--consulting{
-    justify-content: flex-start;   /* en vez de centrar vertical */
-    align-items: stretch;          /* que no “encaje raro” */
-    min-height: auto;              /* deja crecer según contenido */
-    padding-bottom: 60px;          /* asegura fondo debajo del último box */
+    justify-content: flex-start;
+    align-items: stretch;
+    min-height: auto;
+    padding-bottom: 60px;
   }
 
-  .consulting-container{
-    padding: 0 16px;               /* margen lateral en móvil */
-  }
+  .consulting-container{ padding: 0 16px; }
+  .consulting-box{ max-width: 100%; }
 
-  .consulting-box{
-    max-width: 100%;               /* que no se salga */
-  }
-}
-
-/* Consulting: bajar tamaño del título de cada proyecto */
-.hero--consulting .research-title{
-  font-size: 1.35rem;
-  line-height: 1.35;
-  margin: 8px 0 12px 0;
-}
-
-.hero--consulting .consulting-box > .hero-name{
-  font-size: 2rem;
-  margin-bottom: 14px;
-}
-
-.services-header{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-}
-
-.services-logo{
-  height:35px;
-  width:auto;
-  opacity:0.9;
-}
-
-/* Services con iconos */
-.services-list--icons{
-  list-style: none;
-  padding-left: 0;
-  margin: 12px 0 0 0;
-}
-
-.services-list--icons li{
-  display: flex;
-  gap: 10px;
-  align-items: flex-start;
-  margin: 10px 0;
-  line-height: 1.55;
-}
-
-.services-list--icons .s-ico{
-  width: 22px;
-  text-align: center;
-  flex: 0 0 22px;
-  opacity: 0.95;
-  transform: translateY(1px);
-}
-
-/* Services con iconos */
-.services-list--icons{
-  list-style: none;
-  padding-left: 0;
-  margin: 12px 0 0 0;
-}
-
-.services-list--icons li{
-  display: flex;
-  gap: 10px;
-  align-items: flex-start;
-  margin: 10px 0;
-  line-height: 1.55;
-}
-
-.services-list--icons .s-ico{
-  width: 22px;
-  text-align: center;
-  flex: 0 0 22px;
-  opacity: 0.95;
-  transform: translateY(1px);
-}
-
-/* Fix logo en Services (móvil) */
-@media (max-width: 900px){
+  /* Logo services: que no se salga */
   .services-header{
-    flex-wrap: wrap;          /* permite salto de línea */
+    flex-wrap: wrap;
     gap: 10px;
   }
 
   .services-logo{
-    height: 28px;             /* más pequeño en móvil */
-    max-width: 45vw;          /* nunca más ancho que media pantalla */
+    height: 28px;
+    max-width: 45vw;
     object-fit: contain;
   }
 }
