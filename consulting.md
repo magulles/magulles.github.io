@@ -5,11 +5,7 @@ permalink: /consulting/
 ---
 
 <section class="hero hero--consulting">
-<div class="lang-switch">
-    <a href="/research/">🇬🇧 EN</a> |
-    <a href="/es/research/">🇪🇸 ES</a>
-  </div>
-
+    
   <div class="hero-overlay">
 
   <div class="consulting-container">
