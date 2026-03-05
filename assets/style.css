@@ -532,3 +532,19 @@ line-height:1.35;
   text-overflow: ellipsis;   /* ... */
   max-width: 75vw;           /* evita que choque con el botón del menú */
 }
+
+.site-title-block {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.site-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-top: -6px;
+}
+
+.site-nav {
+  float: right;
+}
