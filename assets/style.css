@@ -4,7 +4,7 @@
 /* Seguridad: evita scroll horizontal si algo se sale 1-2px */
 html, body { overflow-x: hidden; }
 
-@media (max-width: 950px){
+@media (max-width: 900px){
   .hero-overlay { padding: 24px 18px; }
 }
 
@@ -467,7 +467,7 @@ html, body { overflow-x: hidden; }
 }
 
 .services-logo{
-  height:40px;
+  height:35px;
   width:auto;
   opacity:0.9;
 }
