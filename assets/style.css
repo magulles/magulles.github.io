@@ -522,6 +522,7 @@ line-height:1.35;
   float: right;
 }
 
+/* móvil: subtítulo puede romper línea */
 @media screen and (max-width: 600px){
   .site-subtitle{
     white-space: normal;
@@ -531,25 +532,48 @@ line-height:1.35;
   }
 }
 
+/* texto justificado */
 .about-right p{
   text-align: justify;
   hyphens: auto;
 }
 
-@media (max-width: 900px){
-  .about-role{
-    display: none;
+/* =========================================================
+MOBILE FIXES ABOUT SECTION
+========================================================= */
+
+@media (max-width:900px){
+
+  /* hero menos alto en móvil */
+  .hero{
+    min-height: auto;
+    align-items: flex-start;
+    padding-top: 140px;
+    padding-bottom: 40px;
   }
 
-  .about-left{
-    flex: 0 0 auto !important;
-  }
-
+  /* layout vertical */
   .about-grid{
-    gap: 0 !important;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
   }
 
-  .hero-name{
-    margin: 0 0 10px 0 !important;
+  /* evitar altura fija del bloque de imagen */
+  .about-left{
+    flex: 0 0 auto;
   }
+
+  /* texto ancho completo */
+  .about-right{
+    max-width: 100%;
+    margin-top: 0;
+  }
+
+  /* subir título */
+  .hero-name{
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
 }
