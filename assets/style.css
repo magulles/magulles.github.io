@@ -543,3 +543,11 @@ line-height:1.35;
   }
 
 }
+
+@media (max-width: 900px){
+
+  .about-right p{
+    margin-top: 8px;
+  }
+
+}
