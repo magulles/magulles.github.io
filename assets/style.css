@@ -507,7 +507,7 @@ line-height:1.35;
   float: left;
   display: flex;
   flex-direction: column;
-  padding-right: 56px; /* deja espacio para el botón hamburguesa en móvil */
+  padding-right: 56px;
 }
 
 .site-subtitle{
@@ -518,31 +518,29 @@ line-height:1.35;
   line-height: 1.2;
 }
 
-/* Nav a la derecha */
 .site-nav{
   float: right;
 }
 
-/* Móvil: que el subtítulo NO se recorte raro */
 @media screen and (max-width: 600px){
   .site-subtitle{
-    white-space: normal;   /* IMPORTANTE: permitir salto de línea */
-    overflow: visible;     /* quitar recorte */
+    white-space: normal;
+    overflow: visible;
     text-overflow: clip;
     max-width: none;
   }
 }
+
 .about-right p{
   text-align: justify;
   hyphens: auto;
+}
 
 @media (max-width: 900px){
   .about-role{
     display: none;
   }
-}
 
-@media (max-width: 900px){
   .about-left{
     flex: 0 0 auto !important;
   }
@@ -555,5 +553,3 @@ line-height:1.35;
     margin: 0 0 10px 0 !important;
   }
 }
-  
-
