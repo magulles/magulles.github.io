@@ -537,7 +537,7 @@ line-height:1.35;
   hyphens: auto;
 @media (max-width: 900px){
   .about-grid{
-    gap: 6px;
+    gap: 0px;
   }
 
   .hero-name{
