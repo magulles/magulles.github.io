@@ -532,11 +532,7 @@ line-height:1.35;
     max-width: none;
   }
 }
-@media (max-width: 900px){
-
-  .hero-overlay{
-    padding-left: 22px;
-    padding-right: 22px;
-  }
-
+.about-right p{
+  text-align: justify;
+  hyphens: auto;
 }
