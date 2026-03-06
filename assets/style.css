@@ -50,7 +50,7 @@ HEADER SOBRE HERO
 
 
 /* =========================================================
-HERO FULL WIDTH (SIN ZOOM RARO)
+HERO FULL WIDTH
 ========================================================= */
 
 .hero {
@@ -62,8 +62,8 @@ HERO FULL WIDTH (SIN ZOOM RARO)
   align-items: center;
   justify-content: center;
 
-  width: 100%;
-  margin: 0;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
   margin-top: -80px;
 
   padding: 100px 20px;
@@ -72,7 +72,7 @@ HERO FULL WIDTH (SIN ZOOM RARO)
   color: white;
 }
 
-/* Fondo full width */
+/* Fondo */
 .hero::before{
   content: "";
   position: absolute;
@@ -90,7 +90,7 @@ HERO FULL WIDTH (SIN ZOOM RARO)
 
 
 /* =========================================================
-HERO OVERLAY (BOX GRIS)
+HERO BOX
 ========================================================= */
 
 .hero-overlay{
@@ -119,7 +119,7 @@ HERO OVERLAY (BOX GRIS)
 
 
 /* =========================================================
-HOME: ABOUT
+ABOUT
 ========================================================= */
 
 .about-grid{
@@ -149,12 +149,9 @@ HOME: ABOUT
   box-shadow:0 10px 30px rgba(0,0,0,0.35);
 }
 
-.about-role{
-  margin-top:14px;
-  font-size:0.9rem;
-  letter-spacing:1px;
-  text-transform:uppercase;
-  opacity:.85;
+.about-right p{
+  text-align: justify;
+  hyphens: auto;
 }
 
 
@@ -190,7 +187,6 @@ INTERESTS
   border:0 !important;
   box-shadow:none !important;
   padding:0 !important;
-  border-radius:0 !important;
 }
 
 .icon-card::before{
@@ -199,7 +195,7 @@ INTERESTS
   text-align:center;
 }
 
-.icon-card .icon{
+.icon{
   font-size:18px;
   width:22px;
   text-align:center;
@@ -230,12 +226,6 @@ EDUCATION
   margin-bottom:14px;
 }
 
-.edu-icon{
-  font-size:18px;
-  width:22px;
-  text-align:center;
-}
-
 
 /* =========================================================
 RESEARCH
@@ -249,7 +239,6 @@ RESEARCH
   display:grid;
   grid-template-columns:1.2fr .8fr;
   gap:28px;
-  align-items:start;
 }
 
 .research-title{
@@ -292,51 +281,46 @@ CONSULTING
   max-width:1120px;
 }
 
-/* título sección */
 .hero--consulting .consulting-box > .hero-name{
   font-size:2rem;
   margin-bottom:14px;
 }
 
-/* títulos de proyectos */
 .hero--consulting .research-title{
   font-size:1.35rem;
   line-height:1.35;
 }
 
 
-/* services header */
+/* =========================================================
+HEADER TITLE FIX
+========================================================= */
 
-.services-header{
+.site-title-block{
+  float:left;
   display:flex;
-  align-items:center;
-  justify-content:space-between;
+  flex-direction:column;
+  padding-right:56px;
 }
 
-.services-logo{
-  height:35px;
-  opacity:.9;
+.site-subtitle{
+  display:block;
+  font-size:14px;
+  color:#666;
+  margin-top:-6px;
+  line-height:1.2;
 }
 
-
-/* services list */
-
-.services-list--icons{
-  list-style:none;
-  padding:0;
-  margin-top:12px;
+.site-nav{
+  float:right;
 }
 
-.services-list--icons li{
-  display:flex;
-  gap:10px;
-  margin:10px 0;
-  line-height:1.55;
-}
-
-.s-ico{
-  width:22px;
-  text-align:center;
+@media screen and (max-width:600px){
+  .site-subtitle{
+    white-space:normal;
+    overflow:visible;
+    text-overflow:clip;
+  }
 }
 
 
@@ -347,8 +331,11 @@ RESPONSIVE
 @media (max-width:900px){
 
 .hero{
+  min-height:auto;
+  align-items:flex-start;
   padding:70px 16px;
-  padding-top:180px;
+  padding-top:140px;
+  padding-bottom:40px;
 }
 
 .hero-overlay{
@@ -358,11 +345,20 @@ RESPONSIVE
 .about-grid{
   flex-direction:column;
   text-align:center;
-  gap:22px;
+  gap:8px;
+}
+
+.about-left{
+  flex:0 0 auto;
 }
 
 .about-right{
   max-width:100%;
+}
+
+.hero-name{
+  margin-top:0;
+  margin-bottom:10px;
 }
 
 .research-card{
@@ -373,207 +369,11 @@ RESPONSIVE
   margin-top:26px;
 }
 
-/* consulting hero crecimiento natural */
-
-.hero--consulting{
-  min-height:auto;
-  padding-bottom:60px;
-}
-
 .consulting-container{
   padding:0 16px;
 }
 
-.services-header{
-  flex-wrap:wrap;
-  gap:10px;
 }
 
-.services-logo{
-  height:28px;
-  max-width:45vw;
-}
 
-}
 
-/* Evitar “zoom” del fondo en páginas con hero muy alto (Research/Consulting) */
-.hero--research::before,
-.hero--consulting::before{
-  position: fixed;        /* el fondo depende del viewport, no del alto del section */
-  top: 0;
-  height: 100vh;
-  pointer-events: none;
-}
-
-/* Para que el resto de la página no quede con fondo fijo fuera de lugar */
-.hero--research,
-.hero--consulting{
-  position: relative;
-}
-
-/* Evitar “zoom” del fondo en heroes MUY altos (Research/Consulting) */
-.hero--research::before,
-.hero--consulting::before{
-  position: fixed;            /* el fondo depende del viewport */
-  top: 0;
-  height: 100vh;              /* tamaño estable */
-  pointer-events: none;
-
-  /* ayuda en móviles (rendering) */
-  will-change: transform;
-  transform: translateX(-50%) translateZ(0);
-}
-
-/* Asegura que el contenido siga por encima */
-.hero--research,
-.hero--consulting{
-  position: relative;
-  z-index: 0;
-}
-
-/* Fondo estable en cualquier hero (evita zoom cuando el hero es alto) */
-.hero::before{
-  position: fixed;
-  top: 0;
-  height: 100vh;
-  pointer-events: none;
-}
-
-/* 1) Que el HERO salga del wrapper de Minima (full width real) */
-.hero{
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-}
-
-/* 2) Ahora sí: hacer el box gris más ancho */
-.hero-overlay{
-  max-width: 1120px;   /* prueba 1120–1200 según te guste */
-}
-
-/* Consulting usa además .consulting-box, súbelo también */
-.consulting-box{
-  max-width: 1120px;
-}
-
-/* Consulting (móvil): mantener Services + logo en la misma línea */
-@media (max-width: 900px){
-  .services-header{
-    flex-wrap: nowrap;           /* NO saltar de línea */
-    gap: 12px;
-  }
-
-  .services-header .hero-name{
-    flex: 1;
-    min-width: 0;               /* permite que el texto se ajuste */
-    font-size: 1.7rem;          /* un poco menor en móvil */
-    margin: 0;
-  }
-
-  .services-logo{
-    height: 22px;               /* más pequeño para que quepa */
-    max-width: 34vw;
-    flex: 0 0 auto;
-  }
-}
-
-/* Resaltar página activa en el menú */
-.site-header .page-link.active {
-  border-bottom: 2px solid #2a6df4;
-  padding-bottom: 4px;
-}
-
-.hero--research .research-title{
-font-size:1.35rem;
-line-height:1.35;
-}
-
-/* Contenedor del hero sin “caja gris” (solo centrado y padding) */
-.hero-overlay--clear{
-  background: transparent;
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
-  padding: 0;              /* el padding lo ponemos en las cajas internas */
-  border-radius: 0;
-  max-width: 1000px;       /* ajusta a tu gusto */
-}
-
-/* Espaciado entre los dos boxes */
-.consulting-container{
-  gap: 30px;
-}
-
-/* ===== Header title + subtitle (FIX) ===== */
-.site-title-block{
-  float: left;
-  display: flex;
-  flex-direction: column;
-  padding-right: 56px;
-}
-
-.site-subtitle{
-  display: block;
-  font-size: 14px;
-  color: #666;
-  margin-top: -6px;
-  line-height: 1.2;
-}
-
-.site-nav{
-  float: right;
-}
-
-/* móvil: subtítulo puede romper línea */
-@media screen and (max-width: 600px){
-  .site-subtitle{
-    white-space: normal;
-    overflow: visible;
-    text-overflow: clip;
-    max-width: none;
-  }
-}
-
-/* texto justificado */
-.about-right p{
-  text-align: justify;
-  hyphens: auto;
-}
-
-/* =========================================================
-MOBILE FIXES ABOUT SECTION
-========================================================= */
-
-@media (max-width:900px){
-
-  /* hero menos alto en móvil */
-  .hero{
-    min-height: auto;
-    align-items: flex-start;
-    padding-top: 140px;
-    padding-bottom: 40px;
-  }
-
-  /* layout vertical */
-  .about-grid{
-    flex-direction: column;
-    text-align: center;
-    gap: 8px;
-  }
-
-  /* evitar altura fija del bloque de imagen */
-  .about-left{
-    flex: 0 0 auto;
-  }
-
-  /* texto ancho completo */
-  .about-right{
-    max-width: 100%;
-    margin-top: 0;
-  }
-
-  /* subir título */
-  .hero-name{
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-
-}
