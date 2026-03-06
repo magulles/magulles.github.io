@@ -542,17 +542,17 @@ line-height:1.35;
   }
 }
 
-  @media (max-width: 900px){
+@media (max-width: 900px){
   .about-left{
-    margin-bottom: 0;
-  }
-
-  .about-right{
-    margin-top: 0;
+    flex: 0 0 auto !important;
   }
 
   .about-grid{
-    gap: 0;
+    gap: 0 !important;
+  }
+
+  .hero-name{
+    margin: 0 0 10px 0 !important;
   }
 }
   
