@@ -19,7 +19,7 @@ title: Home
         <h1 class="hero-name">About me</h1>
 
         <p class="hero-highlight">
-          More than ten years of experience integrating observational data
+          Over ten years of experience integrating observational data
           (waves, wind, sea level, temperature), numerical modelling, remote sensing and statistical analysis
           for coastal risk assessment. Currently, my research focuses on sea level variability and coastal impacts.
           In parallel, I have participated in more than 10 applied coastal engineering studies.
