@@ -65,7 +65,7 @@ permalink: /consulting/
           </h2>
 
           <p class="research-desc">
-            1) maritime climate in the vicinity of the port was obtained. 2) a statistical analysis of the wave conditions was performed. 3), representative sea states  were propagated inside the port under different design proposals using the MSP model . Design of the rubble mound breakwater.
+            In order to meet the study objectives, here we: 1) maritime climate in the vicinity of the port was obtained. 2) a statistical analysis of the wave conditions was performed. 3), representative sea states  were propagated inside the port under different design proposals using the MSP model . Design of the rubble mound breakwater.
           </p>
         </div>
 
