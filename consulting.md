@@ -13,7 +13,7 @@ permalink: /consulting/
 
   <div class="services-header">
     <h2 class="hero-name">Services</h2>
-    <img src="/assets/logo.png" class="services-logo" alt="Marenostre logo">
+    <img src="/assets/logo20.png" class="services-logo" alt="Marenostre logo">
   </div>
 
   <ul class="services-list services-list--icons">
