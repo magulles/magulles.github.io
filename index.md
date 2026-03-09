@@ -9,7 +9,7 @@ title: Home
     <div class="about-grid">
       <!-- LEFT: PHOTO -->
       <div class="about-left">
-        <img src="/assets/profile1.png" alt="Miguel Agulles" class="about-avatar">
+        <img src="/assets/profile.png" alt="Miguel Agulles" class="about-avatar">
 
         
       </div>
