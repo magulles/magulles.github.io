@@ -11,7 +11,7 @@ permalink: /meteoport/
 <h1 class="hero-name">Meteoport</h1>
 
 <p class="section-intro">
-A platform for climate, weather and energy analytics.
+A platform for climate, wave forecast and energy analytics (in progress).
 </p>
 
 </div>
