@@ -454,3 +454,18 @@ RESPONSIVE
     max-width: none;
   }
 }
+
+.hero-overlay{
+  animation: fadeUp 0.7s ease-out;
+}
+
+@keyframes fadeUp{
+  from{
+    opacity:0;
+    transform: translateY(20px);
+  }
+  to{
+    opacity:1;
+    transform:none;
+  }
+}
