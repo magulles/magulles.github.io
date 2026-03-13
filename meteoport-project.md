@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Meteoport
-permalink: /meteoport/
+permalink: /meteoport-project/
 ---
 
 <section class="hero hero--meteoport">
