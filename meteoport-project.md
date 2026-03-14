@@ -18,5 +18,4 @@ permalink: /meteoport-project/
 A platform for climate, wave forecast and energy analytics (in progress).
 </p>
 
-</div>
-</section>
+
