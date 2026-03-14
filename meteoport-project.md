@@ -7,6 +7,10 @@ permalink: /meteoport-project/
 <section class="hero hero--meteoport">
 
 <div class="hero-overlay">
+  <div class="services-header">
+    <h2 class="hero-name">Services</h2>
+    <img src="/assets/logo-meteoport.png" class="services-logo" alt="Meteoport logo">
+  </div>
 
 <h1 class="hero-name">Meteoport</h1>
 
