@@ -8,7 +8,7 @@ description: >-
 ---
 
 <section class="container page-intro">
-  <img class="meteoport-logo" src="{{ '/assets/img/logo-meteoport.png' | relative_url }}" alt="Meteoport" width="360" height="36">
+  <img class="brand-logo" src="{{ '/assets/img/logo-meteoport.png' | relative_url }}" alt="Meteoport" width="360" height="36">
   <p class="eyebrow">Work in progress</p>
   <h1>Wave forecasts for ports and marinas.</h1>
   <p class="lead">Meteoport is a platform that brings high-resolution wave forecasts and maritime climate information to the scale where port operations happen: the harbour entrance, the basins and the berths.</p>

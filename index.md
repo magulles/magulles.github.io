@@ -79,13 +79,6 @@ title: Home
       </div>
     </article>
     <article class="pub">
-      <span class="pub-year">Under revision</span>
-      <div class="pub-body">
-        <h3>Temporal evolution of satellite-derived bathymetry at regional scale (NW Mediterranean)</h3>
-        <p>Sentinel-2 MSI · 12 study sites · 2018–2024</p>
-      </div>
-    </article>
-    <article class="pub">
       <span class="pub-year">2024</span>
       <div class="pub-body">
         <h3>Mediterranean seagrasses provide essential coastal protection under climate change</h3>

@@ -9,6 +9,7 @@ description: >-
 ---
 
 <section class="container page-intro">
+  <img class="brand-logo" src="{{ '/assets/img/logo-marenostre.png' | relative_url }}" alt="Marenostre" width="300" height="60">
   <p class="eyebrow">Consulting · Marenostre</p>
   <h1>Technical studies for coastal and port engineering.</h1>
   <p class="lead">More than ten years supporting engineering firms, port authorities and marinas with maritime climate, wave propagation and coastal dynamics studies, from the data analysis to the design recommendation.</p>
