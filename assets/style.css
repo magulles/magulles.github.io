@@ -2,13 +2,13 @@
    magulles.github.io — design tokens
    ========================================================= */
 :root {
-  --sand: #F4F2ED;
+  --sand: #F5F7FA;
   --navy: #0B2540;
   --accent: #1B5E9E;
   --accent-light: #9CC4EA;
   --ink: #24364B;
   --muted: #4A5563;
-  --line: #E3DFD6;
+  --line: #E2E8F0;
   --chip: #E6EEF6;
   --white: #FFFFFF;
   --on-navy: #DCE6F0;
@@ -118,8 +118,8 @@ h1, h2, h3 {
    Header
    ========================================================= */
 .site-header {
-  background: var(--white);
-  border-bottom: 1px solid var(--line);
+  background: var(--navy);
+  border-bottom: 1px solid var(--navy);
   position: relative;
   z-index: 10;
 }
@@ -132,18 +132,18 @@ h1, h2, h3 {
   padding-top: 18px;
   padding-bottom: 18px;
 }
-.brand { display: flex; flex-direction: column; text-decoration: none; color: var(--navy); }
-.brand:hover { color: var(--navy); }
+.brand { display: flex; flex-direction: column; text-decoration: none; color: var(--white); }
+.brand:hover { color: var(--white); }
 .brand-name { font-family: var(--font-head); font-weight: 800; font-size: 20px; letter-spacing: -0.2px; line-height: 1.3; }
-.brand-sub { font-size: 13px; color: var(--muted); }
+.brand-sub { font-size: 13px; color: #B7C6D6; }
 
 .site-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 28px; font-size: 15px; font-weight: 500; }
-.site-nav a:not(.btn) { color: var(--navy); text-decoration: none; padding: 4px 0; border-bottom: 2px solid transparent; }
-.site-nav a:not(.btn):hover { color: var(--accent); }
-.site-nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
+.site-nav a:not(.btn) { color: var(--on-navy); text-decoration: none; padding: 4px 0; border-bottom: 2px solid transparent; }
+.site-nav a:not(.btn):hover { color: var(--white); }
+.site-nav a.active { color: var(--white); border-bottom-color: var(--accent-light); }
 
 .nav-toggle { position: absolute; opacity: 0; pointer-events: none; }
-.nav-toggle-label { display: none; cursor: pointer; padding: 10px; margin: -10px; color: var(--navy); }
+.nav-toggle-label { display: none; cursor: pointer; padding: 10px; margin: -10px; color: var(--white); }
 
 @media (max-width: 760px) {
   .nav-toggle-label { display: block; }
@@ -156,7 +156,7 @@ h1, h2, h3 {
     padding-top: 8px;
   }
   .nav-toggle:checked ~ .site-nav { display: flex; }
-  .nav-toggle:focus-visible + .nav-toggle-label { outline: 2px solid var(--accent); }
+  .nav-toggle:focus-visible + .nav-toggle-label { outline: 2px solid var(--accent-light); }
 }
 
 /* =========================================================
