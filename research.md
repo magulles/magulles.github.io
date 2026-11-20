@@ -42,6 +42,7 @@ description: >-
 
     <article class="study">
       <div>
+        <span class="pub-year">2024</span>
         <h3>Storm surge modelling along European coastlines: the effect of the spatio-temporal resolution of the atmospheric forcing</h3>
         <p>The spatio-temporal resolution of atmospheric forcing plays a key role in the accuracy of simulated storm surges with hydrodynamic numerical models. Here, we generate five hydrodynamic hindcasts of coastal storm surges along the European Atlantic and the Mediterranean Sea coasts, forced with atmospheric fields of varying temporal (hourly and daily) and spatial (0.25º to 2º) resolution since 1940.</p>
       </div>

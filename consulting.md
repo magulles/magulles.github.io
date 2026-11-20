@@ -64,23 +64,21 @@ description: >-
     </div>
     <div class="project-grid">
 
-      {%- comment -%} TODO: add a figure (assets/img/projects/ibiza.jpg) and a one-line summary of scope and outcome {%- endcomment -%}
       <article class="project">
-        <div class="project-noimg" aria-hidden="true"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 17c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 7c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/></svg></div>
+        <img class="fit" src="{{ '/assets/img/projects/ibiza.jpg' | relative_url }}" alt="Significant wave height inside the Port of Ibiza for incoming directions from 120 to 220 degrees" loading="lazy">
         <div class="project-body">
           <span class="project-meta">2026 · Ibiza</span>
           <h3>Wave agitation study, Port of Ibiza</h3>
-          <p>Wave propagation and agitation inside the harbour.</p>
+          <p>Propagation of sea states from each incoming direction to identify how waves penetrate the harbour and where agitation concentrates.</p>
         </div>
       </article>
 
-      {%- comment -%} TODO: add a figure (assets/img/projects/pobla-de-farnals.jpg) and a one-line summary {%- endcomment -%}
       <article class="project">
-        <div class="project-noimg" aria-hidden="true"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="12" width="5" height="8" rx="1"/><rect x="9.5" y="9" width="5" height="11" rx="1"/><rect x="16" y="6" width="5" height="14" rx="1"/></svg></div>
+        <img class="fit" src="{{ '/assets/img/projects/pobla-de-farnals.jpg' | relative_url }}" alt="Joint distributions of offshore wave height, period and direction at Pobla de Farnals" loading="lazy">
         <div class="project-body">
           <span class="project-meta">2026 · Pobla de Farnals</span>
           <h3>Maritime climate, coastal flooding and breakwater design</h3>
-          <p>Coastal flooding assessment and breakwater design based on the local maritime climate.</p>
+          <p>Offshore maritime climate, coastal flooding assessment and breakwater calculation for the Port of Pobla de Farnals.</p>
         </div>
       </article>
 

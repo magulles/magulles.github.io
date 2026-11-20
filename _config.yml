@@ -12,6 +12,6 @@ orcid: https://orcid.org/0000-0003-3501-2899
 linkedin: https://www.linkedin.com/in/miguel-agulles-g%C3%A1mez-14415071/
 # Fill in when available; the links appear automatically once set.
 google_scholar: ""
-cv: ""
+cv: /assets/cv/CV_Miguel_Agulles.pdf
 exclude:
   - README.md
