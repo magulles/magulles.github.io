@@ -17,7 +17,7 @@ title: Home
 
 <section class="band" aria-label="Key figures" style="border-top:0">
   <div class="container figures">
-    <div class="figure"><span class="figure-num">20</span><span class="figure-label">Publications in JCR journals</span></div>
+    <div class="figure"><span class="figure-num">19</span><span class="figure-label">Publications in JCR journals</span></div>
     <div class="figure"><span class="figure-num">10+</span><span class="figure-label">Years in coastal and port engineering</span></div>
     <div class="figure"><span class="figure-num">15+</span><span class="figure-label">Consulting projects</span></div>
     <div class="figure"><span class="figure-num small">IMEDEA</span><span class="figure-label">Postdoctoral researcher (UIB-CSIC)</span></div>
