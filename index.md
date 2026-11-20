@@ -78,7 +78,7 @@ title: Home
       <span class="pub-year">2026</span>
       <div class="pub-body">
         <h3>Multi-decadal shoreline variability at a Mediterranean urban beach: disentangling storm impacts and sea-level influence</h3>
-        <p>Agulles, M. et al.</p>
+        <p>Agulles, M. et al. · <em>Environmental Research Letters</em> · <a href="https://doi.org/10.1088/1748-9326/ae9b26">doi:10.1088/1748-9326/ae9b26</a></p>
       </div>
     </article>
     <article class="pub">

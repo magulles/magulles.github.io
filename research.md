@@ -40,13 +40,17 @@ description: >-
       <a href="{{ site.orcid }}">All publications on ORCID →</a>
     </div>
 
-    <article class="study study--nofig">
+    <article class="study">
       <div>
-        <span class="pub-year">2025</span>
-        <h3>Constraining extreme storm surges along the European coasts from a large ensemble of climate models</h3>
-        <p>Storm surges along the European coasts are simulated with a hydrodynamic model forced by winds and pressure from a large ensemble of initialised climate models, producing more than 8,000 winter seasons representative of the climate since 1960. This millennial-scale data set reveals plausible storm surges that have never been observed, on average about 20% higher than the recorded maxima and up to 1 m larger, and it reduces the uncertainty of very rare return levels by up to two orders of magnitude.</p>
-        <p class="cite">Marcos, M., Agulles, M., Amores, A., Feng, X. &amp; Robson, J. · <em>Journal of Geophysical Research: Oceans</em>, 130, e2025JC022863 · <a href="https://doi.org/10.1029/2025JC022863">doi:10.1029/2025JC022863</a></p>
+        <span class="pub-year">2026</span>
+        <h3>Multi-decadal shoreline variability at a Mediterranean urban beach: disentangling storm impacts and sea-level influence</h3>
+        <p>A 25-year, high-resolution record of shoreline position at Cala Millor (Mallorca), built from in-situ monitoring and satellite observations, is used to separate two behaviours: the short-term response of the beach to storms, over days to weeks, and its long-term evolution, from years to decades, which is closely linked to changes in sea level.</p>
+        <p class="cite">Agulles, M., Gómez-Pujol, L. &amp; Marcos, M. · <em>Environmental Research Letters</em>, 21, 174006 · <a href="https://doi.org/10.1088/1748-9326/ae9b26">doi:10.1088/1748-9326/ae9b26</a></p>
       </div>
+      <figure>
+        <img src="{{ '/assets/research/cala-millor-shoreline.jpg' | relative_url }}" alt="Cala Millor beach divided into three zones, with time series of wave energy, wave direction and shoreline change since 2000" loading="lazy">
+        <figcaption>Cala Millor beach and its three zones (left), with time series of wave energy (A), wave direction (B) and shoreline change (C, D) since 2000.</figcaption>
+      </figure>
     </article>
 
     <article class="study">
