@@ -427,3 +427,7 @@ h1, h2, h3 {
   color: var(--navy);
 }
 .status-dot { width: 9px; height: 9px; border-radius: 50%; background: #D98E04; }
+
+.wide-figure { margin: 0; padding: 36px 0 0; }
+.wide-figure img { width: 100%; border-radius: 10px; border: 1px solid var(--line); background: var(--white); }
+.wide-figure figcaption { margin-top: 10px; font-size: 14px; line-height: 1.5; color: var(--muted); }

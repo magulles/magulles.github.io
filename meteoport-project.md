@@ -45,13 +45,18 @@ description: >-
     <div class="study">
       <div>
         <h2 class="section-title" style="margin-bottom:16px">Background</h2>
-        <p>Meteoport builds on operational wave forecasting systems I have implemented for harbours in the Balearic Islands, such as the forecasts at the entrance and inside the marina of Port d’Andratx (Mallorca). The platform is now being redesigned to extend this approach to more ports, with a clearer interface and new products.</p>
-        <p style="margin-top:16px">Updates will be published here as the project progresses. If you manage a port or marina and are interested in a pilot, <a href="mailto:{{ site.email }}?subject=Meteoport">get in touch</a>.</p>
+        <p>Meteoport combines several wave and wind forecast sources and refines them with a high-frequency tide gauge installed in the port, which measures sea level and agitation in real time. By comparing observations and model results continuously, the system corrects its forecasts and keeps improving them over time.</p>
+        <p style="margin-top:16px">This makes it possible to issue early warnings up to 72 hours ahead, with thresholds adapted to each area and use of the port, and to build the port’s own long-term record of sea level and storm events: the basis for planning its adaptation to sea-level rise.</p>
+        <p style="margin-top:16px">The approach builds on the operational wave forecasting systems I have implemented in harbours in the Balearic Islands, such as Port d’Andratx (Mallorca). Updates will be published here as the project progresses. If you manage a port or marina and are interested in a pilot, <a href="mailto:{{ site.email }}?subject=Meteoport">get in touch</a>.</p>
       </div>
       <figure>
-        <img src="{{ '/assets/img/projects/andratx.jpg' | relative_url }}" alt="Wave forecast at the entrance of Port d'Andratx" loading="lazy">
-        <figcaption>Wave forecast at the entrance of Port d’Andratx (2017).</figcaption>
+        <img src="{{ '/assets/img/meteoport-tide-gauge.jpg' | relative_url }}" alt="High-frequency tide gauge mounted on a quay" loading="lazy">
+        <figcaption>Example of a high-frequency tide gauge installation for real-time measurement of sea level and agitation.</figcaption>
       </figure>
     </div>
+    <figure class="wide-figure">
+      <img src="{{ '/assets/img/meteoport-forecast.jpg' | relative_url }}" alt="Observed and forecast significant wave height and sea level inside a port, with warning thresholds" loading="lazy">
+      <figcaption>Example of the forecasting tool: observed significant wave height and sea level up to the present, and numerical forecast for the next 72 hours with warning thresholds. Illustrative values.</figcaption>
+    </figure>
   </div>
 </section>
