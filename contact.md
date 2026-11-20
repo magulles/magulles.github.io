@@ -1,59 +1,21 @@
 ---
-layout: page
+layout: default
 title: Contact
 permalink: /contact/
 ---
 
-<section class="hero hero--research">
-  <div class="hero-overlay">
+<section class="container page-intro">
+  <p class="eyebrow">Contact</p>
+  <h1>Get in touch.</h1>
+  <p class="lead">For research collaborations, technical studies or operational forecasting systems, email is the best way to reach me.</p>
+</section>
 
-    <div class="consulting-container">
-
-      <div class="consulting-box">
-
-        <h2 class="hero-name">Contact</h2>
-
-        <ul class="services-list--icons">
-
-          <li>
-            <span class="s-ico">📧</span>
-            <strong>Email:</strong> 
-            <a href="mailto:miguelagulles@gmail.com">
-            miguelagulles@gmail.com
-            </a>
-          </li>
-
-          <li>
-            <span class="s-ico">📍</span>
-            <strong>Location:</strong> Denia (Spain)
-          </li>
-
-          <li>
-            <span class="s-ico">📞</span>
-            <strong>Phone:</strong> +34 646 857 986
-          </li>
-
-          <li>
-            <span class="s-ico">🔗</span>
-            <strong>LinkedIn:</strong> 
-            <a href="https://www.linkedin.com/in/miguel-agulles-g%C3%A1mez-14415071/" target="_blank">
-            LinkedIn profile
-            </a>
-          </li>
-
-          <li>
-            <span class="s-ico">🧾</span>
-          <strong>Publications:</strong> 
-            <a href="https://orcid.org/0000-0003-3501-2899/" target="_blank">
-            ORCID 
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </div>
-
-  </div>
+<section class="container contact-grid">
+  <div class="contact-item"><span class="label">Email</span><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+  <div class="contact-item"><span class="label">Location</span><span class="value">Dénia, Spain</span></div>
+  <div class="contact-item"><span class="label">LinkedIn</span><a href="{{ site.linkedin }}">Miguel Agulles Gámez</a></div>
+  <div class="contact-item"><span class="label">Publications</span><a href="{{ site.orcid }}">ORCID 0000-0003-3501-2899</a></div>
+  {%- if site.google_scholar != "" %}
+  <div class="contact-item"><span class="label">Citations</span><a href="{{ site.google_scholar }}">Google Scholar</a></div>
+  {%- endif %}
 </section>

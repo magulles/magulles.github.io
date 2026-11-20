@@ -1,204 +1,159 @@
 ---
-layout: page
+layout: default
 title: Consulting
 permalink: /consulting/
+cta: consulting
+description: >-
+  Technical studies for coastal and port engineering: maritime climate, harbour
+  agitation, beach dynamics, coastal structures and satellite monitoring.
 ---
 
-<section class="hero hero--consulting">
-    
-  <div class="consulting-container">
+<section class="container page-intro">
+  <img class="brand-logo" src="{{ '/assets/img/logo-marenostre.png' | relative_url }}" alt="Marenostre" width="300" height="60">
+  <p class="eyebrow">Consulting · Marenostre</p>
+  <h1>Technical studies for coastal and port engineering.</h1>
+  <p class="lead">More than ten years supporting engineering firms, port authorities and marinas with maritime climate, wave propagation and coastal dynamics studies, from the data analysis to the design recommendation.</p>
+</section>
 
-    <!-- SERVICES BOX -->
-    <div class="hero-overlay consulting-box">
-
-  <div class="services-header">
-    <h2 class="hero-name">Services</h2>
-    <img src="/assets/logo.png" class="services-logo" alt="Marenostre logo">
+<section class="container services" aria-label="Services">
+  <div class="service-grid">
+    <div class="service">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1B5E9E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 17c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 7c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/></svg>
+      <h3>Maritime climate</h3>
+      <p>Wave, wind and sea-level climate: extremes and long-term trends.</p>
+    </div>
+    <div class="service">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1B5E9E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="2"/><path d="M12 7v14"/><path d="M5 13H3a9 9 0 0 0 18 0h-2"/><path d="M8 10h8"/></svg>
+      <h3>Harbour agitation</h3>
+      <p>Agitation, resonance and operability; layout alternatives to improve safety.</p>
+    </div>
+    <div class="service">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1B5E9E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h18"/><path d="M5 20c1-6 4-10 7-10s6 4 7 10"/><path d="M12 4v3"/></svg>
+      <h3>Beaches and shorelines</h3>
+      <p>Coastal dynamics, equilibrium profiles and beach nourishment projects.</p>
+    </div>
+    <div class="service">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1B5E9E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="12" width="5" height="8" rx="1"/><rect x="9.5" y="9" width="5" height="11" rx="1"/><rect x="16" y="6" width="5" height="14" rx="1"/></svg>
+      <h3>Coastal structures</h3>
+      <p>Breakwaters, seawalls, overtopping and nature-based solutions.</p>
+    </div>
+    <div class="service">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1B5E9E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 7l4-4 4 4-4 4z"/><path d="M15 9l-6 6"/><path d="M3 21l4-4"/><path d="M4 14a6 6 0 0 0 6 6"/></svg>
+      <h3>Remote sensing</h3>
+      <p>Shoreline and bathymetry monitoring from satellite imagery.</p>
+    </div>
   </div>
+  <div class="chips">
+    <span class="chips-label">Models and tools</span>
+    <span class="chip">SWAN</span>
+    <span class="chip">XBeach</span>
+    <span class="chip">SCHISM</span>
+    <span class="chip">Celeris</span>
+    <span class="chip">MSP</span>
+    <span class="chip">SMC</span>
+    <span class="chip">CoastSat</span>
+    <span class="chip">Python · MATLAB</span>
+  </div>
+</section>
 
-  <ul class="services-list services-list--icons">
-    <li><span class="s-ico">🌊</span><span>Meteo-ocean climate assessments: extremes and long-term trends.</span></li>
-    <li><span class="s-ico">🏖️</span><span>Shoreline dynamics and beach nourishment studies.</span></li>
-    <li><span class="s-ico">⚓</span><span>Port design assessment to reduce agitation and improve safety and operability.</span></li>
-    <li><span class="s-ico">🧱</span><span>Coastal infrastructure design support (breakwaters, seawalls and NbS).</span></li>
-    <li><span class="s-ico">🛰️</span><span>Coastal monitoring projects using remote sensing (satellite imagery).</span></li>
-  </ul>
+<section class="band">
+  <div class="container projects">
+    <div class="section-head">
+      <h2 class="section-title">Selected projects</h2>
+      <span class="meta">2014 – 2026</span>
+    </div>
+    <div class="project-grid">
 
-</div>
-
-    <!-- SELECTED PROJECTS BOX -->
-    <div class="hero-overlay consulting-box">
-
-      <h2 class="hero-name">Some projects</h2>
-
-
-      <!-- PROJECT 1 -->
-      <article class="research-card research-card--hero">
-
-        <div class="research-text">
-          <h2 class="research-title">
-            Study of alternatives to reduce interior agitation in the Port of Cala Gamba.
-          </h2>
-
-          <p class="research-desc">
-            For this study, several tasks were carried out. First, the maritime climate in the vicinity of the port was obtained. Second, a statistical analysis of the wave conditions was performed. Third, representative sea states corresponding to the range of wave conditions were propagated inside the port under different design proposals using the MSP model and Celeris. Finally, the flooding level and overtopping of the quay wall were analysed by combining numerical modelling with empirical equations.
-          </p>
+      {%- comment -%} TODO: add a figure (assets/img/projects/ibiza.jpg) and a one-line summary of scope and outcome {%- endcomment -%}
+      <article class="project">
+        <div class="project-noimg" aria-hidden="true"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 17c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 7c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/></svg></div>
+        <div class="project-body">
+          <span class="project-meta">2026 · Ibiza</span>
+          <h3>Wave agitation study, Port of Ibiza</h3>
+          <p>Wave propagation and agitation inside the harbour.</p>
         </div>
-
-        <div class="research-figure">
-          <img src="/assets/consulting/fig_estudio_1.png" alt="Storm surge modelling figure">
-
-          <p class="figure-caption">
-            Oleaje. Alternativas
-          </p>
-        </div>
-
       </article>
 
-
-      <!-- PROJECT 2 -->
-      <article class="research-card research-card--hero research-spaced">
-
-        <div class="research-text">
-          <h2 class="research-title">
-            Study of maritime climate, harbour agitation, and overtopping for the administrative concession project for the construction and operation of the nautical-sports area located to the west of the Port of Málaga. 
-          </h2>
-
-          <p class="research-desc">
-            In order to meet the study objectives, here we: 1) maritime climate in the vicinity of the port was obtained. 2) a statistical analysis of the wave conditions was performed. 3), representative sea states  were propagated inside the port under different design proposals using the MSP model . Design of the rubble mound breakwater.
-          </p>
+      {%- comment -%} TODO: add a figure (assets/img/projects/pobla-de-farnals.jpg) and a one-line summary {%- endcomment -%}
+      <article class="project">
+        <div class="project-noimg" aria-hidden="true"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="12" width="5" height="8" rx="1"/><rect x="9.5" y="9" width="5" height="11" rx="1"/><rect x="16" y="6" width="5" height="14" rx="1"/></svg></div>
+        <div class="project-body">
+          <span class="project-meta">2026 · Pobla de Farnals</span>
+          <h3>Maritime climate, coastal flooding and breakwater design</h3>
+          <p>Coastal flooding assessment and breakwater design based on the local maritime climate.</p>
         </div>
-
-        <div class="research-figure">
-          <img src="/assets/consulting/fig_estudio_2.png" alt="Seagrass coastal protection figure">
-
-          <p class="figure-caption">
-            Zonas interiores de estudio.
-          </p>
-        </div>
-
       </article>
 
-  <!-- PROJECT 3 -->
-      <article class="research-card research-card--hero research-spaced">
-
-        <div class="research-text">
-          <h2 class="research-title">
-            Operational wave forecasting system for the outer harbour of Ciutadella.    
-          </h2>
-
-          <p class="research-desc">
-            Together with the company Meteoclim SL, an operational system for very high-resolution wave and wind forecasting was implemented, nesting SWAN and MSP wave models, following prior calibration and validation of the system with in-situ observations.
-          </p>
+      <article class="project">
+        <img src="{{ '/assets/img/projects/cala-gamba.jpg' | relative_url }}" alt="Wave height maps for the design alternatives at Cala Gamba" loading="lazy">
+        <div class="project-body">
+          <span class="project-meta">2024 · Mallorca</span>
+          <h3>Alternatives to reduce agitation, Port of Cala Gamba</h3>
+          <p>Maritime climate, wave propagation for each layout and quay-wall overtopping.</p>
+          <div class="tags"><span class="tag">MSP</span><span class="tag">Celeris</span></div>
         </div>
-
-        <div class="research-figure">
-          <img src="/assets/consulting/fig_estudio_3.png" alt="Seagrass coastal protection figure">
-
-          <p class="figure-caption">
-            Zonas interiores de estudio.
-          </p>
-        </div>
-
-      </article>
-      
-   <!-- PROJECT 4 -->
-      <article class="research-card research-card--hero research-spaced">
-
-        <div class="research-text">
-          <h2 class="research-title">
-            Technical appendix on the stability analysis of the parapet of the North Breakwater of the Port of Barcelona. 
-          </h2>
-
-          <p class="research-desc">
-The stability of the structure is assessed by determining the wave conditions at the toe of the breakwater and performing dynamic calculations of wave-induced forces, considering variations in sea level.
-         </p>
-        </div>
-
-        <div class="research-figure">
-          <img src="/assets/consulting/fig_estudio_4.jpg" alt="Seagrass coastal protection figure">
-
-          <p class="figure-caption">
-            Zonas interiores de estudio.
-          </p>
-        </div>
-
       </article>
 
-       <!-- PROJECT 5 -->
-      <article class="research-card research-card--hero research-spaced">
-
-        <div class="research-text">
-          <h2 class="research-title">
-           Study of harbour agitation and resonance in the Port of Alicante. 
-          </h2>
-
-          <p class="research-desc">
-    The causes of the harbour agitation and resonance phenomena are analysed through numerical modelling and statistical reconstruction of the wave climate inside the port, and different intervention alternatives are proposed.
-         </p>
+      <article class="project">
+        <img src="{{ '/assets/img/projects/malaga.jpg' | relative_url }}" alt="Study areas inside the nautical-sports area of the Port of Málaga" loading="lazy">
+        <div class="project-body">
+          <span class="project-meta">2020 · Málaga</span>
+          <h3>Nautical-sports area west of the Port of Málaga</h3>
+          <p>Maritime climate, harbour agitation, overtopping and rubble-mound breakwater design.</p>
+          <div class="tags"><span class="tag">MSP</span></div>
         </div>
-
-        <div class="research-figure">
-          <img src="/assets/consulting/fig_estudio_5.png" alt="Seagrass coastal protection figure">
-
-          <p class="figure-caption">
-            Zonas interiores de estudio.
-          </p>
-        </div>
-
       </article>
 
-       <!-- PROJECT 6 -->
-      <article class="research-card research-card--hero research-spaced">
-
-        <div class="research-text">
-          <h2 class="research-title">
-           Meteoport at Port d’Andratx.
-          </h2>
-
-          <p class="research-desc">
-   Wave forecasting system at the harbour entrance and inside the Port d’Andratx marina, Mallorca.
-         </p>
+      <article class="project">
+        <img src="{{ '/assets/img/projects/ciutadella.jpg' | relative_url }}" alt="Operational wave forecast for the outer harbour of Ciutadella" loading="lazy">
+        <div class="project-body">
+          <span class="project-meta">2020 · Menorca</span>
+          <h3>Operational wave forecasting, outer harbour of Ciutadella</h3>
+          <p>Very high-resolution wave and wind forecasts, calibrated and validated with in-situ data. With Meteoclim SL.</p>
+          <div class="tags"><span class="tag">SWAN</span><span class="tag">MSP</span></div>
         </div>
-
-        <div class="research-figure">
-          <img src="/assets/consulting/fig_estudio_6.PNG" alt="Seagrass coastal protection figure">
-
-          <p class="figure-caption">
-            Zonas interiores de estudio.
-          </p>
-        </div>
-
       </article>
 
-         <!-- PROJECT 7 -->
-      <article class="research-card research-card--hero research-spaced">
-
-        <div class="research-text">
-          <h2 class="research-title">
-           Basic study of coastal dynamics at Playa de Palma.
-          </h2>
-
-          <p class="research-desc">
-The equilibrium beach profile and planform at Playa de Palma are analysed after examining the wave conditions in the vicinity of the study area in both the short and long term.
-</p>
+      <article class="project">
+        <img src="{{ '/assets/img/projects/playa-de-palma.jpg' | relative_url }}" alt="Equilibrium beach planform at Playa de Palma" loading="lazy">
+        <div class="project-body">
+          <span class="project-meta">2018 · Mallorca</span>
+          <h3>Coastal dynamics at Playa de Palma (Can Pastilla)</h3>
+          <p>Equilibrium beach profile and planform from short- and long-term wave conditions.</p>
+          <div class="tags"><span class="tag">SMC</span></div>
         </div>
-
-        <div class="research-figure">
-          <img src="/assets/consulting/fig_estudio_7.PNG" alt="Seagrass coastal protection figure">
-
-          <p class="figure-caption">
-            Zonas interiores de estudio.
-          </p>
-        </div>
-
       </article>
 
-      
+      <article class="project">
+        <img src="{{ '/assets/img/projects/andratx.jpg' | relative_url }}" alt="Wave forecast at the entrance of Port d'Andratx" loading="lazy">
+        <div class="project-body">
+          <span class="project-meta">2017 · Mallorca</span>
+          <h3>Meteoport at Port d’Andratx</h3>
+          <p>Wave forecasting at the harbour entrance and inside the marina.</p>
+          <div class="tags"><span class="tag">Operational system</span></div>
+        </div>
+      </article>
 
+      <article class="project">
+        <img src="{{ '/assets/img/projects/barcelona.jpg' | relative_url }}" alt="Cross-section of the North Breakwater parapet, Port of Barcelona" loading="lazy">
+        <div class="project-body">
+          <span class="project-meta">2017 · Barcelona</span>
+          <h3>Parapet stability, North Breakwater of the Port of Barcelona</h3>
+          <p>Wave conditions at the toe and dynamic wave-force calculations under varying sea levels.</p>
+          <div class="tags"><span class="tag">Structural design</span></div>
+        </div>
+      </article>
+
+      <article class="project">
+        <img src="{{ '/assets/img/projects/alicante.jpg' | relative_url }}" alt="Agitation inside the Port of Alicante" loading="lazy">
+        <div class="project-body">
+          <span class="project-meta">2014–2015 · Alicante</span>
+          <h3>Harbour agitation and resonance, Port of Alicante</h3>
+          <p>Causes of agitation and resonance, statistical reconstruction of the inner wave climate and intervention alternatives.</p>
+          <div class="tags"><span class="tag">Port Authority of Alicante</span></div>
+        </div>
+      </article>
 
     </div>
-
   </div>
-
 </section>

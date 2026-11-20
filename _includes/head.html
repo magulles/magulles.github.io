@@ -1,11 +1,18 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
-  <meta name="description" content="{{ site.description | escape }}">
-
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+  <title>{% if page.title and page.title != "Home" %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}{% if page.title == "Home" %} | Coastal Engineering · Physical Oceanography{% endif %}</title>
+  {%- assign desc = page.description | default: site.description -%}
+  <meta name="description" content="{{ desc | strip_newlines | strip | escape }}">
+  <meta name="author" content="{{ site.author | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title and page.title != 'Home' %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}">
+  <meta property="og:description" content="{{ desc | strip_newlines | strip | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/img/hero-denia.jpg' | absolute_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>

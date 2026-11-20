@@ -1,0 +1,33 @@
+<footer id="contact" class="site-footer">
+  <div class="container footer-main">
+    {%- if page.cta == "consulting" %}
+    <div class="footer-cta">
+      <h2>Need a wave, agitation or coastal study?</h2>
+      <p>Tell me about the site and the question; I will reply with a proposed approach.</p>
+    </div>
+    <a class="btn btn-light" href="mailto:{{ site.email }}?subject=Proposal%20request">Request a proposal</a>
+    {%- else %}
+    <div class="footer-cta">
+      <h2>Let's talk about your coast or port.</h2>
+      <p>Research collaborations, technical studies or operational forecasting systems.</p>
+      <a class="btn btn-light" href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </div>
+    <div class="footer-links">
+      <span>Dénia, Spain</span>
+      <a href="{{ site.linkedin }}">LinkedIn</a>
+      <a href="{{ site.orcid }}">ORCID</a>
+      {%- if site.google_scholar != "" %}
+      <a href="{{ site.google_scholar }}">Google Scholar</a>
+      {%- endif %}
+    </div>
+    {%- endif %}
+  </div>
+  <div class="container footer-bottom">
+    <span>© {{ site.time | date: "%Y" }} Miguel Agulles Gámez</span>
+    {%- if page.cta == "consulting" %}
+    <span>Dénia, Spain</span>
+    <a href="{{ site.linkedin }}">LinkedIn</a>
+    <a href="{{ site.orcid }}">ORCID</a>
+    {%- endif %}
+  </div>
+</footer>
