@@ -15,9 +15,6 @@
       <a href="{{ '/consulting/' | relative_url }}"{% if page.url == '/consulting/' %} class="active" aria-current="page"{% endif %}>Consulting</a>
       <a href="{{ '/meteoport-project/' | relative_url }}"{% if page.url == '/meteoport-project/' %} class="active" aria-current="page"{% endif %}>Meteoport</a>
       <a href="{{ '/contact/' | relative_url }}"{% if page.url == '/contact/' %} class="active" aria-current="page"{% endif %}>Contact</a>
-      {%- if site.cv != "" %}
-      <a class="btn btn-dark" href="{{ site.cv | relative_url }}">Download CV</a>
-      {%- endif %}
     </nav>
   </div>
 </header>

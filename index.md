@@ -11,6 +11,9 @@ title: Home
     <div class="btn-row">
       <a class="btn btn-light" href="{{ '/consulting/' | relative_url }}">Consulting services</a>
       <a class="btn btn-outline" href="{{ '/research/' | relative_url }}">Research</a>
+      {%- if site.cv != "" %}
+      <a class="btn btn-outline" href="{{ site.cv | relative_url }}">Download CV</a>
+      {%- endif %}
     </div>
   </div>
 </section>
@@ -25,7 +28,7 @@ title: Home
 </section>
 
 <section class="container about">
-  <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Portrait of Miguel Agulles" width="300" height="300">
+  <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Portrait of Miguel Agulles" width="300" height="400">
   <div class="about-text">
     <h2 class="section-title">About me</h2>
     <p>I am a civil engineer specialised in coastal engineering, with a PhD in Physical Oceanography from the University of the Balearic Islands. I am currently a postdoctoral researcher at IMEDEA (UIB-CSIC), working on sea-level variability, extreme sea levels, shoreline dynamics and satellite-derived bathymetry.</p>

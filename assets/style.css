@@ -208,7 +208,7 @@ h1, h2, h3 {
   padding-top: 88px;
   padding-bottom: 72px;
 }
-.about img { width: 300px; height: 300px; object-fit: cover; border-radius: 16px; flex: 0 0 auto; }
+.about img { width: 300px; height: 400px; object-fit: cover; border-radius: 16px; flex: 0 0 auto; }
 .about-text { flex: 1 1 480px; min-width: 0; }
 .about-text h2 { margin-bottom: 18px; }
 .about-text p { margin: 0 0 16px; font-size: 17px; line-height: 1.7; color: var(--ink); }
@@ -402,7 +402,7 @@ h1, h2, h3 {
   .container { padding-left: 20px; padding-right: 20px; }
   .hero { min-height: 540px; }
   .about { gap: 32px; padding-top: 56px; }
-  .about img { width: 220px; height: 220px; }
+  .about img { width: 240px; height: 320px; }
   .split { grid-template-columns: 1fr; }
   .split-card { padding: 28px; }
   .project-grid { grid-template-columns: 1fr; }
