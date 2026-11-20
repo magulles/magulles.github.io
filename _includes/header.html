@@ -10,9 +10,10 @@
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
     </label>
     <nav class="site-nav" aria-label="Main">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active" aria-current="page"{% endif %}>Home</a>
       <a href="{{ '/research/' | relative_url }}"{% if page.url == '/research/' %} class="active" aria-current="page"{% endif %}>Research</a>
       <a href="{{ '/consulting/' | relative_url }}"{% if page.url == '/consulting/' %} class="active" aria-current="page"{% endif %}>Consulting</a>
-      <a href="https://meteoport.github.io/denia/">Meteoport</a>
+      <a href="{{ '/meteoport-project/' | relative_url }}"{% if page.url == '/meteoport-project/' %} class="active" aria-current="page"{% endif %}>Meteoport</a>
       <a href="{{ '/contact/' | relative_url }}"{% if page.url == '/contact/' %} class="active" aria-current="page"{% endif %}>Contact</a>
       {%- if site.cv != "" %}
       <a class="btn btn-dark" href="{{ site.cv | relative_url }}">Download CV</a>

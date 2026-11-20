@@ -407,3 +407,19 @@ h1, h2, h3 {
   .project-grid { grid-template-columns: 1fr; }
   .section-title, .footer-cta h2 { font-size: 28px; }
 }
+
+/* Meteoport page */
+.meteoport-logo { width: 360px; max-width: 100%; height: auto; margin-bottom: 32px; }
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 28px 0 0;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: var(--chip);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--navy);
+}
+.status-dot { width: 9px; height: 9px; border-radius: 50%; background: #D98E04; }
