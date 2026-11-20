@@ -85,7 +85,7 @@ title: Home
       <span class="pub-year">2024</span>
       <div class="pub-body">
         <h3>Mediterranean seagrasses provide essential coastal protection under climate change</h3>
-        <p>Agulles, M. et al.</p>
+        <p>Agulles, M. et al. · <em>Scientific Reports</em> · <a href="https://doi.org/10.1038/s41598-024-81026-5">doi:10.1038/s41598-024-81026-5</a></p>
       </div>
     </article>
   </div>

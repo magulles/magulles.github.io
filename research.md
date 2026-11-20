@@ -40,11 +40,21 @@ description: >-
       <a href="{{ site.orcid }}">All publications on ORCID →</a>
     </div>
 
+    <article class="study study--nofig">
+      <div>
+        <span class="pub-year">2025</span>
+        <h3>Constraining extreme storm surges along the European coasts from a large ensemble of climate models</h3>
+        <p>Storm surges along the European coasts are simulated with a hydrodynamic model forced by winds and pressure from a large ensemble of initialised climate models, producing more than 8,000 winter seasons representative of the climate since 1960. This millennial-scale data set reveals plausible storm surges that have never been observed, on average about 20% higher than the recorded maxima and up to 1 m larger, and it reduces the uncertainty of very rare return levels by up to two orders of magnitude.</p>
+        <p class="cite">Marcos, M., Agulles, M., Amores, A., Feng, X. &amp; Robson, J. · <em>Journal of Geophysical Research: Oceans</em>, 130, e2025JC022863 · <a href="https://doi.org/10.1029/2025JC022863">doi:10.1029/2025JC022863</a></p>
+      </div>
+    </article>
+
     <article class="study">
       <div>
         <span class="pub-year">2024</span>
         <h3>Storm surge modelling along European coastlines: the effect of the spatio-temporal resolution of the atmospheric forcing</h3>
         <p>The spatio-temporal resolution of atmospheric forcing plays a key role in the accuracy of simulated storm surges with hydrodynamic numerical models. Here, we generate five hydrodynamic hindcasts of coastal storm surges along the European Atlantic and the Mediterranean Sea coasts, forced with atmospheric fields of varying temporal (hourly and daily) and spatial (0.25º to 2º) resolution since 1940.</p>
+        <p class="cite">Agulles, M., Marcos, M., Amores, A. &amp; Toomey, T. · <em>Ocean Modelling</em>, 192, 102432 · <a href="https://doi.org/10.1016/j.ocemod.2024.102432">doi:10.1016/j.ocemod.2024.102432</a></p>
       </div>
       <figure>
         <img src="{{ '/assets/research/fig_1_research.png' | relative_url }}" alt="Numerical model mesh along European coasts with tide gauge locations and refined straits" loading="lazy">
@@ -57,6 +67,7 @@ description: >-
         <span class="pub-year">2024</span>
         <h3>Mediterranean seagrasses provide essential coastal protection under climate change</h3>
         <p>Seagrasses are vital in coastal areas, offering crucial ecosystem services and playing a relevant role in coastal protection. The decrease in the density of Mediterranean seagrasses over recent decades, due to warming and anthropogenic stressors, may imply a serious environmental threat. Here we quantify the role of coastal impact reduction induced by seagrass presence under present and future climate.</p>
+        <p class="cite">Agulles, M., Marbà, N., Duarte, C. M. &amp; Jordà, G. · <em>Scientific Reports</em>, 14, 30269 · <a href="https://doi.org/10.1038/s41598-024-81026-5">doi:10.1038/s41598-024-81026-5</a></p>
       </div>
       <figure>
         <img src="{{ '/assets/research/fig_2_research.png' | relative_url }}" alt="Wave simulation with and without a seagrass meadow" loading="lazy">
@@ -64,17 +75,6 @@ description: >-
       </figure>
     </article>
 
-    <article class="study">
-      <div>
-        <span class="pub-year">Under revision</span>
-        <h3>Temporal evolution of satellite-derived bathymetry at regional scale (NW Mediterranean)</h3>
-        <p>This study proposes a new methodological framework for the regional-scale retrieval and analysis of nearshore bathymetry and its temporal evolution using satellite imagery (Sentinel-2 MSI) at 12 study sites for the period 2018–2024.</p>
-      </div>
-      <figure>
-        <img src="{{ '/assets/research/methodology.png' | relative_url }}" alt="Methodological framework for satellite-derived bathymetry" loading="lazy">
-        <figcaption>Methodological framework.</figcaption>
-      </figure>
-    </article>
 
   </div>
 </section>
